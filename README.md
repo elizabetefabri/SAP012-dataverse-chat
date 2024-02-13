@@ -7,7 +7,7 @@
 
 ## 📚 Confira meu caderno de estudos:
 
-[![portfolio](https://img.shields.io/badge/Caderno_de_Estudos_-_ROCKETSEAT-74BA9C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://elzbieta.notion.site/Dataverse-Chat-f28924c9c8864107ac0da49706f29592)
+[![portfolio](https://img.shields.io/badge/Caderno_de_Estudos_-_DATAVERSE_CHAT-74BA9C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://elzbieta.notion.site/Dataverse-Chat-f28924c9c8864107ac0da49706f29592)
 
 ## 📝 Ferramentas utilizadas no NLW
 
@@ -30,7 +30,7 @@
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/check.png"></td>
       <td>Marco 01</td>
       <td align="center">
-        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/01-milestone.md" target="_blank">
+        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-01/README.md" target="_blank">
            <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-090912?style=for-the-badge" width="150px">
         </a>
       </td>
@@ -40,7 +40,7 @@
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/cancel.png"></td>
       <td>Marco 02</td>
       <td align="center">
-        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/02-milestone.md" target="_blank">
+        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-02/README.md" target="_blank">
            <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-74BA9C?style=for-the-badge" width="150px">
         </a>
       </td>
@@ -50,7 +50,7 @@
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/cancel.png"></td>
       <td>Marco 03</td>
       <td align="center">
-        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/03-milestone.md" target="_blank">
+        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-03/README.md" target="_blank">
            <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-090912?style=for-the-badge" width="150px">
         </a>
       </td>
@@ -60,7 +60,7 @@
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/cancel.png"></td>
       <td>Marco 04</td>
       <td align="center">
-        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/04-milestone.md" target="_blank">
+        <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-04/README.md" target="_blank">
            <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-74BA9C?style=for-the-badge" width="150px">
         </a>
       </td>

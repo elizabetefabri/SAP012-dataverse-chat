@@ -12,7 +12,7 @@
 ## 📝 Ferramentas utilizadas no NLW
 
 - [GitHub do Projeto]()
-- [Figma - Protótipo do projeto]()
+- [Figma - Protótipo do projeto](https://www.figma.com/file/asUYQQBBq3lTGP2og7X0Et/Dataverse-Chat?type=design&node-id=201%3A441&mode=dev&t=5njNnMhiYVumzElG-1)
 - [ViteJs]()
 
 <table>
@@ -66,7 +66,9 @@
       </td>
     </tr>
     </tbody>
-  <tfoot></tfoot>
+  <tfoot>
+
+  </tfoot>
 </table>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>

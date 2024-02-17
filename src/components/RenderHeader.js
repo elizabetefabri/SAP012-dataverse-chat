@@ -21,10 +21,6 @@ export const renderHeader = () => {
           <a id="abrirModalClickMobile" href="#">Chave api</a>
         </div>
       </div>
-
-      <div class="container__h1">
-        <h1>Comunidade Criativa Multifacetada</h1>
-      </div>
   `;
 
   const rootElement = document.getElementById("root");

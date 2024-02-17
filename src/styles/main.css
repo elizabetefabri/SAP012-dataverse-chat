@@ -1,0 +1,201 @@
+/* ESTILIZAÇÃO DA MAIN */
+
+main {
+  padding: 2.5rem;
+  background-color: var(--color-white);
+  border-radius: 1.25rem 1.25rem 0px 0px;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Adicionado para garantir que os itens estejam em coluna */
+}
+
+/* ESTILIZAÇÃO FILTROS */
+label {
+  font-size: 28px;
+  color: var(--color-text-01);
+}
+.filtros {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-filters input {
+  width: 31.25rem;
+  height: 3.12rem;
+  border: 2px solid var(--color-text-01);
+  border-radius: 5px;
+  padding-left: 0.62rem;
+  font-size: 16px;
+  color: #6a738d;
+}
+
+.section-filters,
+.section-filters {
+  display: flex;
+  text-align: right;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+select#filters,
+select#order {
+  font-size: 1.25rem;
+  color: var(--color-text-01);
+  padding: 5px;
+  border: none;
+  margin: 0.62rem;
+  border: solid 1px var(--color-text-01);
+  background: transparent;
+  border-radius: 5px;
+}
+/* .section-filters .section-filters select:focus {
+  outline: none;
+} */
+.section-filters .section-filters select::-ms-expand,
+.section-filters,
+.section-filters select::-ms-expand {
+  width: 15px;
+}
+
+#btn-limpar {
+  background-color: var(--green-500);
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: var(--color-white);
+  border: none;
+  padding: 0.62rem 1.25rem;
+  cursor: pointer;
+}
+
+main > h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--color-font-01);
+  margin-bottom: 3.12rem;
+  padding: 1.25rem;
+}
+
+/* Estilização dos Cards */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  max-width: 20.62rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.56);
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+.link__card {
+  text-decoration: none;
+}
+
+dd {
+  margin-left: 0;
+}
+
+dl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 30.9rem;
+  margin-top: 0.62rem;
+}
+
+.container__card {
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content__card {
+  margin: 0 auto;
+}
+
+.image__card {
+  margin-top: -0.62rem;
+  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+  /* height: 270px; */
+}
+
+.name__card {
+  padding: 1.25rem;
+  color: var(--color-text-01);
+  font-size: 1.37rem;
+  text-align: center;
+}
+
+.idade__card{
+  color: var(--color-description);
+  font-size: 16px;
+  text-align: center;
+}
+.description__card {
+  padding: 1.25rem;
+  color: var(--color-description);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 2rem;
+  }
+  main h2 {
+    padding: 0px;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+  .section-filters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch
+  }
+  label{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px
+  }
+  select#filters{
+    margin: 0px;
+    width: 100%;
+  }
+  select#order{
+    margin: 0px;
+    width: 100%;
+  }
+  .container__card {
+    margin-right: 0px;
+  }
+
+  #order {
+    margin: 10px;
+  }
+  button#btn-limpar{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}

@@ -1,3 +1,4 @@
+import { getApiKey, setApiKey } from "../lib/apiKey.js";
 
 export const renderModal = () => {
   const modal = document.createElement("div");
@@ -23,7 +24,7 @@ export const renderModal = () => {
   });
 
   const inputModal = modal.querySelector("#input__modal");
-  // inputModal.value = getApiKey();
+  inputModal.value = getApiKey();
 
   const saveButton = modal.querySelector("#btn__modal");
   saveButton.addEventListener("click", () => {

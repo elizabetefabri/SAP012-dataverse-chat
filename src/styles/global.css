@@ -1,0 +1,45 @@
+:root {
+  --color-background: #f8f8f8;
+  --color-header: #232932;
+  --color-white: #ffffff;
+  --color-text-01: #374151;
+  --color-description: #9ca3af;
+
+  --green-500: #428a6e;
+  --green-600: #336e59;
+  --green-700: #336e59;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #374151;
+  background-color: var(--color-background);
+  font-weight: bold;
+}
+
+select:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: var(--color-white);
+  font-size: 1.25rem;
+  border: none;
+  padding: 0.62rem 1.25rem;
+  cursor: pointer;
+  font-weight: bold;
+}

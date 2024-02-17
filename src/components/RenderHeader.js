@@ -1,0 +1,29 @@
+export const renderHeader = () => {
+  const header = document.createElement("header");
+  header.classList.add("header");
+
+  header.innerHTML = `
+      <div class="header__container">
+        <nav class="header__logo">
+          <img class="image__logo" src="./images/logoDesktop.png" alt="Logo DataverseChat" />
+          <div class="header__links">
+            <a href="">Link painel</a>
+            <a id="abrirModalClick" href="#">Chave api</a>
+          </div>
+          <a id="mobile" href="#" class="icon">
+            <i class="fa fa-bars"></i>
+          </a>
+        </nav>
+        <div id="myLinks" class="header__mobile-links">
+          <a href="">Link painel</a>
+          <a id="abrirModalClickMobile" href="#">Chave api</a>
+        </div>
+      </div>
+
+      <div class="container__h1">
+        <h1>Comunidade Criativa Multifacetada</h1>
+      </div>
+  `;
+
+  return header;
+};

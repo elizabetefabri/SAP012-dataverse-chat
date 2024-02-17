@@ -1,3 +1,5 @@
+import renderModal from "./RenderModal.js";
+
 export const renderHeader = () => {
   const header = document.createElement("header");
   header.classList.add("header");
@@ -24,6 +26,24 @@ export const renderHeader = () => {
         <h1>Comunidade Criativa Multifacetada</h1>
       </div>
   `;
+
+  const rootElement = document.getElementById("root");
+  const abrirModalClick = header.querySelector("#abrirModalClick");
+  const abrirModalClickMobile = header.querySelector("#abrirModalClickMobile");
+  const mobileToggle = header.querySelector("#mobile");
+  const mobileLinks = header.querySelector("#myLinks");
+
+  abrirModalClick.addEventListener("click", () => {
+    rootElement.appendChild(renderModal());
+  });
+
+  abrirModalClickMobile.addEventListener("click", () => {
+    rootElement.appendChild(renderModal());
+  });
+
+  mobileToggle.addEventListener("click", () => {
+    mobileLinks.classList.toggle("show");
+  });
 
   return header;
 };

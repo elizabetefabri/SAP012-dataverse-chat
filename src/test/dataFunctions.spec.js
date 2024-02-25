@@ -56,7 +56,7 @@ describe("filterData", () => {
   const getPaisNascimentoPersonas = (personas) =>
     personas.map((persona) => persona.facts.paisNascimentoPersona);
   it("Should return a list filted", () => {
-    const filtedData = filterData(fakeData, filterBy, "italia");
+    const filtedData = filterData(fakeData, filterBy, "italiano");
     const filteredByPaisNascimentoPersona =
       getPaisNascimentoPersonas(filtedData);
     const count = filteredByPaisNascimentoPersona.length;
@@ -64,12 +64,3 @@ describe("filterData", () => {
   });
 });
 
-// describe("computeStats", () => {
-//   const expectedValue = [
-//     ["Theater", 1],
-//     ["Novel", 3],
-//     ["Movie", 1],
-//   ];
-//   const resultValues = computeStats(fakeData);
-//   expect(resultValues).toEqual(expectedValue);
-// });

@@ -1,4 +1,4 @@
-import { getApiKey, setApiKey } from "../lib/apiKey.js";
+import { getApiKey, setApiKey } from "../../lib/apiKey.js";
 
 export const renderModal = () => {
   const modal = document.createElement("div");

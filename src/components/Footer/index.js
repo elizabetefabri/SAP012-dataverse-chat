@@ -1,4 +1,4 @@
-export const renderFooter = () => {
+export const Footer = () => {
   const footer = document.createElement('footer');
   footer.classList.add('container');
 
@@ -6,10 +6,10 @@ export const renderFooter = () => {
     <footer>
       <div class="container__footer">
         <div class="socialIcons">
-        <a href="https://github.com" target="_blank">
+        <a href="https://github.com/in/elizabetefabri" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com" target="_blank">
+        <a href="https://github.com/elizabetefabri" target="_blank">
           <i class="fab fa-github"></i>
         </a>
         </div>

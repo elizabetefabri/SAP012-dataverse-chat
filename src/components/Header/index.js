@@ -1,6 +1,6 @@
-import renderModal from "./RenderModal.js";
+import Modal from "../Modal/index.js";
 
-export const renderHeader = () => {
+export const Header = () => {
   const header = document.createElement("header");
   header.classList.add("header");
 
@@ -30,11 +30,11 @@ export const renderHeader = () => {
   const mobileLinks = header.querySelector("#myLinks");
 
   abrirModalClick.addEventListener("click", () => {
-    rootElement.appendChild(renderModal());
+    rootElement.appendChild(Modal());
   });
 
   abrirModalClickMobile.addEventListener("click", () => {
-    rootElement.appendChild(renderModal());
+    rootElement.appendChild(Modal());
   });
 
   mobileToggle.addEventListener("click", () => {

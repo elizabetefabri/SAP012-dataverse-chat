@@ -161,8 +161,18 @@ dl {
   font-size: 1rem;
   text-align: center;
 }
+.shortDescription__card {
+  padding: 0;
+  color: var(--color-description);
+  font-size: 1rem;
+  text-align: center;
+}
 
-
+@media only screen and (min-width: 769px) {
+  .shortDescription {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   h1{
@@ -220,7 +230,7 @@ dl {
   .shortDescription__card {
     padding: 0;
     color: var(--color-description);
-    /* font-size: 1rem; */
+    font-size: 1rem;
     text-align: center;
   }
 

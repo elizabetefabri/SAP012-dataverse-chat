@@ -1,4 +1,4 @@
-import { renderCardUl } from "../components/RenderCard.js";
+import { Card } from "../components/Card/index.js";
 import { sortData, filterData } from "../lib/dataFunctions.js";
 import data from "../data/dataset.js";
 let processedData = [];
@@ -18,10 +18,10 @@ const Home = () => {
         <label for="filters" id="search-filters" class="filters">Filtrar por:</label>
         <select id="filters" name="pais-nascimento-persona" data-testid="select-filter">
           <option value="Todos" hidden disabled></option>
-          <option value="brasil">Brasil</option>
-          <option value="italia">Itália</option>
-          <option value="argentina">Argentina</option>
-          <option value="eua">EUA</option>
+          <option value="brasileiro">Brasileiro</option>
+          <option value="italiano">Italiano</option>
+          <option value="argentino">Argentino</option>
+          <option value="americano">Americano</option>
           </select>
           <label for="order">Ordenar por:</label>
             <select id="order" name="name" data-testid="select-sort">
@@ -39,7 +39,7 @@ const Home = () => {
     </main>
   `;
 
-  const cardElement = renderCardUl(data);
+  const cardElement = Card(data);
   viewEl.querySelector("#cards").appendChild(cardElement);
 
   const filterSelectElement = viewEl.querySelector("#filters");
@@ -50,7 +50,7 @@ const Home = () => {
       filterSelectElement.value
     );
     viewEl.querySelector("#cards").innerHTML = "";
-    viewEl.querySelector("#cards").appendChild(renderCardUl(processedData));
+    viewEl.querySelector("#cards").appendChild(Card(processedData));
   });
 
   const orderSelectElement = viewEl.querySelector("#order");
@@ -62,7 +62,7 @@ const Home = () => {
     );
 
     viewEl.querySelector("#cards").innerHTML = "";
-    viewEl.querySelector("#cards").appendChild(renderCardUl(sortedData));
+    viewEl.querySelector("#cards").appendChild(Card(sortedData));
   });
 
   const btnLimparElements = viewEl.querySelector("#btn-limpar");
@@ -70,7 +70,7 @@ const Home = () => {
     viewEl.querySelector("#cards").innerHTML = "";
     filterSelectElement.value = "Todos";
     orderSelectElement.value = "todos";
-    viewEl.querySelector("#cards").appendChild(renderCardUl(data));
+    viewEl.querySelector("#cards").appendChild(Card(data));
   });
 
   return viewEl;

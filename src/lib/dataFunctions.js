@@ -5,25 +5,26 @@ export const transformToCamelCase = (param) => {
   return modifiedString;
 };
 
-export const filterData = (data, filterBy, value) => {
-  const filterByCamelCase = transformToCamelCase(filterBy);
-  const filteredBooks = data.filter((book) => {
-    return book.facts[filterByCamelCase] === value;
+export const sortData = (data, sortBy, sortOrder) => {
+  const sortByCamelCase = transformToCamelCase(sortBy);
+
+  const orderedData = data.slice().sort((a, b) => {
+    const valueA = a[sortByCamelCase];
+    const valueB = b[sortByCamelCase];
+
+    if (sortOrder === "asc") {
+      return valueA.localeCompare(valueB);
+    }
+    return valueB.localeCompare(valueA);
   });
-  return filteredBooks;
+
+  return orderedData;
 };
 
-
-export const sortData = (data, sortBy, sortOrder) => {
-  const orderMultiplier = sortOrder === 'asc' ? 1 : -1;
-
-  return data.slice().sort((a, b) => {
-    const valueA = a.facts[sortBy];
-    const valueB = b.facts[sortBy];
-
-    const numA = parseFloat(valueA);
-    const numB = parseFloat(valueB);
-
-    return (numA - numB) * orderMultiplier;
+export const filterData = (data, filterBy, value) => {
+  const filterByCamelCase = transformToCamelCase(filterBy);
+  const filteredPersonas = data.filter((persona) => {
+    return persona.facts[filterByCamelCase] === value;
   });
+  return filteredPersonas;
 };

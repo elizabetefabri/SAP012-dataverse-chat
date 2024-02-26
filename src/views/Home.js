@@ -21,7 +21,7 @@ export const Home = () => {
 
   mainEl.innerHTML = `
   <div class="container__h1">
-    <h1>Comunidade Criativa Multifacetada</h1>
+    <h1>Comunidade Criativa</h1>
   </div>
   <main>
     <h2>Uma plataforma que reúne o Artista Expressivo, o Músico Melódico, o Observador de Aves, o Fashionista Elegante e outros. Os usuários podem compartilhar suas criações artísticas, músicas, fotos de aves, dicas de moda, receitas inspiradas na natureza e participar de desafios criativos. Um espaço onde diferentes formas de expressão se encontram.</h2>

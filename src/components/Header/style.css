@@ -1,9 +1,10 @@
-header {
+.header {
   color: var(--color-white);
   margin: 0; /* Zera as margens */
   padding: 0; /* Zera o preenchimento */
   position: fixed;
   top: 0; /* Alinha o cabeçalho ao topo da página */
+
   width: 100%;
   z-index: 1000;
 }

@@ -15,7 +15,7 @@ export default [
     facts: {
       especialidadePersona: "Enfermagem Geral",
       idadePersona: "36",
-      paisNascimentoPersona: "brasil",
+      paisNascimentoPersona: "brasileiro",
       curiosidadesPersona:
         "Realiza trabalho voluntário em comunidades carentes nas horas de folga.",
     },
@@ -36,7 +36,7 @@ export default [
     facts: {
       especialidadePersona: "História Antiga",
       idadePersona: "42",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona:
         "Já participou de escavações arqueológicas em locais históricos famosos.",
     },
@@ -57,7 +57,7 @@ export default [
     facts: {
       especialidadePersona: "Culinária Contemporânea",
       idadePersona: "45",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona:
         "Já participou de competições culinárias internacionais.",
     },
@@ -78,7 +78,7 @@ export default [
     facts: {
       especialidadePersona: "Viagens Exóticas",
       idadePersona: "40",
-      paisNascimentoPersona: "argentina",
+      paisNascimentoPersona: "argentino",
       curiosidadesPersona:
         "Já atravessou o deserto do Saara em uma expedição solo.",
     },
@@ -99,7 +99,7 @@ export default [
     facts: {
       especialidadePersona: "Poesia Motivacional",
       idadePersona: "28",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona:
         "Realiza performances poéticas em eventos culturais.",
     },
@@ -120,7 +120,7 @@ export default [
     facts: {
       especialidadePersona: "Ciências Diversas",
       idadePersona: "34",
-      paisNascimentoPersona: "eua",
+      paisNascimentoPersona: "americano",
       curiosidadesPersona:
         "Publicou artigos científicos em revistas renomadas.",
     },
@@ -141,7 +141,7 @@ export default [
     facts: {
       especialidadePersona: "Conselhos Amorosos",
       idadePersona: "36",
-      paisNascimentoPersona: "eua",
+      paisNascimentoPersona: "americano",
       curiosidadesPersona:
         "Participa ativamente de workshops sobre relacionamentos.",
     },
@@ -162,7 +162,7 @@ export default [
     facts: {
       especialidadePersona: "Eventos Astronômicos",
       idadePersona: "38",
-      paisNascimentoPersona: "eua",
+      paisNascimentoPersona: "americano",
       curiosidadesPersona:
         "Organiza observações públicas de astros em parques locais.",
     },
@@ -183,7 +183,7 @@ export default [
     facts: {
       especialidadePersona: "Artes Visuais",
       idadePersona: "32",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona: "Realiza exposições de arte em galerias locais.",
     },
   },
@@ -203,7 +203,7 @@ export default [
     facts: {
       especialidadePersona: "Jardinagem",
       idadePersona: "45",
-      paisNascimentoPersona: "brasil",
+      paisNascimentoPersona: "brasileiro",
       curiosidadesPersona:
         "Participa ativamente em projetos de paisagismo comunitário.",
     },
@@ -224,7 +224,7 @@ export default [
     facts: {
       especialidadePersona: "Filosofia",
       idadePersona: "40",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona:
         "Publicou ensaios filosóficos em revistas acadêmicas.",
     },
@@ -245,7 +245,7 @@ export default [
     facts: {
       especialidadePersona: "Música",
       idadePersona: "36",
-      paisNascimentoPersona: "eua",
+      paisNascimentoPersona: "americano",
       curiosidadesPersona: "Compõe trilhas sonoras para filmes independentes.",
     },
   },
@@ -265,7 +265,7 @@ export default [
     facts: {
       especialidadePersona: "Enigmas e Quebra-cabeças",
       idadePersona: "42",
-      paisNascimentoPersona: "argentina",
+      paisNascimentoPersona: "argentino",
       curiosidadesPersona:
         "Venceu competições de enigmas a nível internacional.",
     },
@@ -286,7 +286,7 @@ export default [
     facts: {
       especialidadePersona: "Literatura",
       idadePersona: "38",
-      paisNascimentoPersona: "eua",
+      paisNascimentoPersona: "americano",
       curiosidadesPersona: "Participa de um clube do livro local.",
     },
   },
@@ -307,7 +307,7 @@ export default [
     facts: {
       especialidadePersona: "Fitness e Bem-estar",
       idadePersona: "34",
-      paisNascimentoPersona: "brasil",
+      paisNascimentoPersona: "brasileiro",
       curiosidadesPersona: "Certificado em instrução de yoga.",
     },
   },
@@ -327,7 +327,7 @@ export default [
     facts: {
       especialidadePersona: "Ornitologia",
       idadePersona: "48",
-      paisNascimentoPersona: "eua",
+      paisNascimentoPersona: "americano",
       curiosidadesPersona: "Contribui para projetos de conservação de aves.",
     },
   },
@@ -347,7 +347,7 @@ export default [
     facts: {
       especialidadePersona: "Orientação Profissional",
       idadePersona: "44",
-      paisNascimentoPersona: "eua",
+      paisNascimentoPersona: "americano",
       curiosidadesPersona: "Possui um podcast sobre carreiras de sucesso.",
     },
   },
@@ -367,7 +367,7 @@ export default [
     facts: {
       especialidadePersona: "Matemática e Quebra-cabeças",
       idadePersona: "40",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona:
         "Publicou artigos em revistas matemáticas renomadas.",
     },
@@ -389,7 +389,7 @@ export default [
     facts: {
       especialidadePersona: "Organização e Estilo de Vida",
       idadePersona: "36",
-      paisNascimentoPersona: "argentina",
+      paisNascimentoPersona: "argentino",
       curiosidadesPersona:
         "Autora de um livro best-seller sobre organização doméstica.",
     },
@@ -410,7 +410,7 @@ export default [
     facts: {
       especialidadePersona: "Moda e Estilo",
       idadePersona: "32",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona:
         "Trabalhou como estilista para grandes marcas de moda.",
     },
@@ -431,7 +431,7 @@ export default [
     facts: {
       especialidadePersona: "Filantropia e Causas Humanitárias",
       idadePersona: "50",
-      paisNascimentoPersona: "brasil",
+      paisNascimentoPersona: "brasileiro",
       curiosidadesPersona:
         "Fundador de uma ONG premiada de auxílio a comunidades carentes.",
     },
@@ -452,7 +452,7 @@ export default [
     facts: {
       especialidadePersona: "Gamer e Estratégias de Jogos",
       idadePersona: "28",
-      paisNascimentoPersona: "argentina",
+      paisNascimentoPersona: "argentino",
       curiosidadesPersona:
         "Participou de competições de esports a nível internacional.",
     },
@@ -474,7 +474,7 @@ export default [
     facts: {
       especialidadePersona: "Cinema e Cultura Audiovisual",
       idadePersona: "45",
-      paisNascimentoPersona: "italia",
+      paisNascimentoPersona: "italiano",
       curiosidadesPersona:
         "Dirigiu filmes premiados em festivais internacionais.",
     },
@@ -495,7 +495,7 @@ export default [
     facts: {
       especialidadePersona: "Personagem Fictício",
       idadePersona: "23",
-      paisNascimentoPersona: "argentina",
+      paisNascimentoPersona: "argentino",
       curiosidadesPersona: "Criado para inspirar alegria e leveza.",
     },
   },

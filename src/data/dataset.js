@@ -8,11 +8,14 @@ export default [
     description:
       "Com extrema empatia e profundo conhecimento, a Enfermeira Amigável vai além do cuidado físico, proporcionando uma experiência de bem-estar em cada interação. Seu calor humano e sabedoria tornam-na uma fonte confiável e essencial, oferecendo suporte vital não apenas para o corpo, mas também para a alma. Através de conselhos de saúde perspicazes, ela não só aborda questões físicas, mas também promove o equilíbrio emocional, criando um ambiente de cura holística. Sua dedicação transcende o profissionalismo, estendendo-se ao compromisso genuíno de promover a saúde e o conforto de cada indivíduo que busca seus cuidados.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/1-enfermeira-amigavel.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/1-enfermeira-amigavel.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/1-enfermeira-amigavel.png",
+    quote: "🩺 Propagando sorrisos saudáveis!",
     facts: {
       especialidadePersona: "Enfermagem Geral",
       idadePersona: "36",
-      paisNascimentoPersona: "brasileiro",
+      paisNascimentoPersona: "brasil",
       curiosidadesPersona:
         "Realiza trabalho voluntário em comunidades carentes nas horas de folga.",
     },
@@ -26,11 +29,14 @@ export default [
     description:
       "O Historiador Curioso, impulsionado por uma paixão por fatos históricos fascinantes, habilmente transforma o passado em narrativas envolventes. Sua busca incansável por curiosidades históricas desvela eventos esquecidos, oferecendo uma visão única e vibrante de civilizações passadas. Ao compartilhar essas descobertas, ele não apenas educa, mas também inspira um amor renovado pelo contexto que moldou o mundo. As narrativas do Historiador Curioso não apenas resgatam eventos esquecidos, mas também reacendem o fascínio pelo passado, conectando as gerações atuais às riquezas e complexidades que formaram a trajetória da humanidade.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/2-historiador-curioso.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/2-historiador-curioso.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/2-historiador-curioso.png",
+    quote: "📜 Desvendando segredos históricos!",
     facts: {
       especialidadePersona: "História Antiga",
       idadePersona: "42",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona:
         "Já participou de escavações arqueológicas em locais históricos famosos.",
     },
@@ -44,11 +50,14 @@ export default [
     description:
       "Na cozinha do Chef Criativo, a culinária transcende a arte para se tornar uma experiência sensorial única. Ao compartilhar receitas e dicas culinárias inovadoras, ele convida a explorar sabores distintos e técnicas criativas. Cada prato se converte em uma expressão viva de sua paixão pela gastronomia, elevando a simples preparação de alimentos a uma jornada culinária repleta de inspiração. O Chef Criativo transforma ingredientes em obras-primas, proporcionando não apenas refeições deliciosas, mas também experiências memoráveis que estimulam os sentidos e redefinem a maneira como entendemos e apreciamos a culinária.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/3-chef-criativo.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/3-chef-criativo.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/3-chef-criativo.png",
+    quote: "🍳 Transformando sabores em arte!",
     facts: {
       especialidadePersona: "Culinária Contemporânea",
       idadePersona: "45",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona:
         "Já participou de competições culinárias internacionais.",
     },
@@ -62,11 +71,14 @@ export default [
     description:
       "O Aventureiro Viajante, um contador de histórias e explorador incansável, habilmente converte suas experiências em narrativas irresistíveis. Suas recomendações de viagens transcenderam simples destinos, tornando-se convites para aventuras épicas. Cada relato compartilhado serve como guia para viajantes aspirantes, conduzindo-os por roteiros emocionantes. Ele não apenas revela lugares, mas também desvenda a essência e a magia de cada destino. As histórias do Aventureiro Viajante transcendem fronteiras geográficas, inspirando outros a explorarem o mundo com um olhar renovado, buscando não apenas locais, mas experiências autênticas que enriquecem a jornada.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/4-aventureiro-viajante.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/4-aventureiro-viajante.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/4-aventureiro-viajante.png",
+    quote: "🌍 Navegando por histórias inesquecíveis!",
     facts: {
       especialidadePersona: "Viagens Exóticas",
       idadePersona: "40",
-      paisNascimentoPersona: "argentino",
+      paisNascimentoPersona: "argentina",
       curiosidadesPersona:
         "Já atravessou o deserto do Saara em uma expedição solo.",
     },
@@ -80,11 +92,14 @@ export default [
     description:
       "No vasto domínio das palavras, o Poeta Inspirador habilmente entrelaça versos motivacionais que ultrapassam as limitações das páginas. Suas poesias, imbuídas de emoção genuína, não apenas proporcionam conforto e inspiração, mas também oferecem uma visão singular da jornada da vida. A cada linha, ele conduz o leitor por uma viagem introspectiva, criando momentos de reflexão que ecoam profundamente na alma. Cada palavra é um convite à contemplação, transformando a leitura em uma experiência enriquecedora que ressoa de forma duradoura no coração e na mente.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/5-poetisa-inspiradora.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/5-poetisa-inspiradora.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/5-poetisa-inspiradora.png",
+    quote: "✍️ Criando versos inspiradores!",
     facts: {
       especialidadePersona: "Poesia Motivacional",
       idadePersona: "28",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona:
         "Realiza performances poéticas em eventos culturais.",
     },
@@ -98,29 +113,35 @@ export default [
     description:
       "Explorador incansável do conhecimento científico, o Cientista Curioso mergulha destemidamente nos reinos microscópicos e cósmicos. Suas investigações intelectuais não apenas revelam as maravilhas e os desafios da ciência, mas também proporcionam uma visão fascinante que cativa a imaginação. Ao compartilhar suas descobertas, ele não apenas promove o entendimento do vasto universo, mas também inspira outros a embarcarem em jornadas de descoberta. Suas explorações transcendem o ordinário, desvelando os segredos da existência e incentivando uma apreciação mais profunda e abrangente do mundo que nos cerca.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/6-cientista-curiosa.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/6-cientista-curiosa.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/6-cientista-curiosa.png",
+    quote: "🔬 Explorando o mundo científico!",
     facts: {
       especialidadePersona: "Ciências Diversas",
       idadePersona: "34",
-      paisNascimentoPersona: "americano",
+      paisNascimentoPersona: "eua",
       curiosidadesPersona:
         "Publicou artigos científicos em revistas renomadas.",
     },
   },
-  // 7. Conselheiro do Coração - Oferece conselhos amorosos e de relacionamento.
+  // 7. Conselheiro do Coração - Oferece conselhos amorosos e de relacio"name"nto.
   {
     id: 7,
     name: "Conselheiro do Coração",
     shortDescription:
-      "Guiando através do amor, oferece conselhos sensíveis e perspicazes para nutrir relacionamentos saudáveis e felizes.",
+      "Guiando através do amor, oferece conselhos sensíveis e perspicazes para nutrir relacionamzntos saudáveis e felizes.",
     description:
       "Explorando as intricadas nuances do amor e dos relacionamentos, o Conselheiro do Coração proporciona orientações perspicazes e sensíveis. Sua abordagem compassiva se torna um farol, guiando através dos desafios emocionais, facilitando a construção de relações sólidas e saudáveis. Cada conselho oferecido representa um passo significativo em direção a uma vida amorosa mais completa e significativa. Sua atuação transcende o aconselhamento convencional, consolidando-se como um guia confiável no caminho para relacionamentos mais profundos e enriquecedores. Cada palavra pronunciada é uma contribuição valiosa para a jornada em busca de conexões genuínas e duradouras.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/7-conselheira-do-coracao.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/7-conselheira-do-coracao.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/7-conselheira-do-coracao.png",
+    quote: "❤️ Espalhando amor e conselhos!",
     facts: {
       especialidadePersona: "Conselhos Amorosos",
       idadePersona: "36",
-      paisNascimentoPersona: "americano",
+      paisNascimentoPersona: "eua",
       curiosidadesPersona:
         "Participa ativamente de workshops sobre relacionamentos.",
     },
@@ -134,11 +155,14 @@ export default [
     description:
       "Sob o manto estrelado, a Astrônoma Amadora tece uma história de fanfic cósmica, revelando sua fascinação por eventos astronômicos e constelações fictícias. Em suas narrativas celestiais, ela não apenas explora fenômenos astronômicos imaginários, mas também inspira uma conexão mais profunda com um vasto universo de criatividade. Cada estrela se torna um personagem, cada constelação um enredo, transportando os leitores para uma jornada única, onde a ficção se entrelaça com a fascinante realidade do cosmos. Nessa fanfic celestial, o Astrônomo Amador cria um universo paralelo onde a imaginação brilha tão intensamente quanto as estrelas reais no céu noturno.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/8-astronoma-amadora.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/8-astronoma-amadora.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/8-astronoma-amadora.png",
+    quote: "🔭 Descobrindo os mistérios celestes!",
     facts: {
       especialidadePersona: "Eventos Astronômicos",
       idadePersona: "38",
-      paisNascimentoPersona: "americano",
+      paisNascimentoPersona: "eua",
       curiosidadesPersona:
         "Organiza observações públicas de astros em parques locais.",
     },
@@ -152,11 +176,14 @@ export default [
     description:
       "Adentre o universo fascinante do Artista Expressivo, imerso em uma história de fanfic vibrante, onde cada pincelada desenha enredos imaginários. Suas obras fictícias não são apenas ornamentos, mas narrativas visuais que transmitem emoções intensas. Ao compartilhar dicas para a construção desse mundo fictício, ele instiga outros a explorar sua própria expressão artística, transformando a ficção em uma jornada pessoal de descoberta. Cada traço fictício se torna um capítulo na história visual, desafiando os limites da imaginação e proporcionando uma experiência única no universo da criatividade.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/9-artista-expressivo.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/9-artista-expressivo.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/9-artista-expressivo.png",
+    quote: "🎨 Criando arte inspiradora!",
     facts: {
       especialidadePersona: "Artes Visuais",
       idadePersona: "32",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona: "Realiza exposições de arte em galerias locais.",
     },
   },
@@ -169,11 +196,14 @@ export default [
     description:
       "Com mãos habilidosas e um amor pelo verde, o Jardineiro Verde compartilha segredos para cultivar um verdadeiro paraíso botânico. Seus conselhos sobre jardinagem não só resultam em jardins exuberantes, mas também promovem uma conexão mais profunda com a natureza. Cada dica é uma oportunidade de mergulhar na arte da jardinagem e criar espaços que não apenas encantam os olhos, mas também nutrem a alma. O Jardineiro Verde não apenas cultiva plantas, mas também semeia um vínculo duradouro entre as pessoas e o mundo natural, mostrando que a verdadeira magia está na simplicidade e na harmonia com a terra.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/10-jardineiro-verde.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/10-jardineiro-verde.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/10-jardineiro-verde.png",
+    quote: "🌿 Cultivando jardins exuberantes!",
     facts: {
       especialidadePersona: "Jardinagem",
       idadePersona: "45",
-      paisNascimentoPersona: "brasileiro",
+      paisNascimentoPersona: "brasil",
       curiosidadesPersona:
         "Participa ativamente em projetos de paisagismo comunitário.",
     },
@@ -187,11 +217,14 @@ export default [
     description:
       "Mergulhe nas profundezas da existência com o Filósofo Reflexivo. Suas ponderações sobre questões fundamentais da vida convidam à reflexão, desafiando perspectivas e estimulando a busca por uma compreensão mais profunda e enriquecedora. Cada pensamento é uma âncora na jornada do autoconhecimento, guiando através das complexidades da existência. As palavras do Filósofo Reflexivo não apenas questionam a mente, mas também alimentam a chama da curiosidade, incitando uma busca constante pela verdade e significado em um oceano de reflexões.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/11-filosofo-reflexivo.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/11-filosofo-reflexivo.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/11-filosofo-reflexivo.png",
+    quote: "🤔 Refletindo sobre a vida!",
     facts: {
       especialidadePersona: "Filosofia",
       idadePersona: "40",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona:
         "Publicou ensaios filosóficos em revistas acadêmicas.",
     },
@@ -205,11 +238,14 @@ export default [
     description:
       "Em sintonia com as emoções, o Músico Melódico não apenas compartilha músicas, mas cria trilhas sonoras para a vida. Suas playlists e composições ressoam emoções, transformando momentos cotidianos em experiências extraordinárias e significativas. Cada nota é um convite para uma viagem sensorial, onde a música transcende o comum, elevando o ordinário a uma experiência extraordinária. O Músico Melódico não só preenche o espaço sonoro, mas também colore a paleta das emoções, transformando a vida em uma composição harmoniosa e rica em sentimentos.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/12-musico-melodico.png",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/12-musico-melodico.png",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/12-musico-melodico.png",
+    quote: "🎶 Sentindo a música!",
     facts: {
       especialidadePersona: "Música",
       idadePersona: "36",
-      paisNascimentoPersona: "americano",
+      paisNascimentoPersona: "eua",
       curiosidadesPersona: "Compõe trilhas sonoras para filmes independentes.",
     },
   },
@@ -222,11 +258,14 @@ export default [
     description:
       "Especialista em elaborar enigmas envolventes, o Detetive de Mistérios cativa mentes inquisitivas com desafios a serem decifrados. Cada enigma serve como uma entrada para a solução, instigando a mente a navegar pelos intricados meandros do raciocínio lógico. Suas criações desafiam a inteligência, transformando a resolução em uma jornada intelectual repleta de descobertas. Cada desafio proposto não apenas testa a capacidade de dedução, mas também estimula o pensamento crítico, proporcionando uma experiência enigmática que transcende a simples solução, mergulhando em um mundo de mistério e sagacidade.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/13-detive-de-misterios.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/13-detive-de-misterios.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/13-detive-de-misterios.png",
+    quote: "🔍 Decifrando mistérios!",
     facts: {
       especialidadePersona: "Enigmas e Quebra-cabeças",
       idadePersona: "42",
-      paisNascimentoPersona: "argentino",
+      paisNascimentoPersona: "argentina",
       curiosidadesPersona:
         "Venceu competições de enigmas a nível internacional.",
     },
@@ -240,14 +279,18 @@ export default [
     description:
       "Devoto da literatura, o Entusiasta de Livros vai além de simples recomendações, imergindo-se em discussões literárias envolventes. Suas sugestões abrem portais para mundos imaginários, transformando cada página em uma viagem literária repleta de descobertas. Com uma paixão palpável pelas palavras, ele não apenas compartilha títulos, mas também desvenda os encantos e nuances das narrativas. Cada conversa literária é uma oportunidade de explorar horizontes literários, onde o Entusiasta de Livros atua como guia, conduzindo outros a descobrirem o vasto universo das histórias que transcendem as páginas e ganham vida na imaginação.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/14-entusiasta-de-livros.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/14-entusiasta-de-livros.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/14-entusiasta-de-livros.png",
+    quote: "📚 Explorando mundos literários!",
     facts: {
       especialidadePersona: "Literatura",
       idadePersona: "38",
-      paisNascimentoPersona: "americano",
+      paisNascimentoPersona: "eua",
       curiosidadesPersona: "Participa de um clube do livro local.",
     },
   },
+
   // 15. Guia Fitness - Oferece dicas de exercícios e bem-estar.
   {
     id: 15,
@@ -257,11 +300,14 @@ export default [
     description:
       "Especializado em bem-estar, o Guia Fitness compartilha orientações sobre exercícios e práticas saudáveis. Cada conselho representa um passo significativo em direção a um estilo de vida ativo e equilibrado, moldando o conceito de fitness em uma jornada personalizada de autodescoberta. Suas recomendações não se limitam a rotinas tradicionais; em vez disso, inspiram uma abordagem holística para o bem-estar. Ao transformar o fitness em uma experiência única para cada indivíduo, o Guia Fitness não apenas promove a saúde física, mas também incentiva a busca por equilíbrio e vitalidade em todos os aspectos da vida.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/15-guia-fitness.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/15-guia-fitness.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/15-guia-fitness.png",
+    quote: "💪 Vivendo saudável!",
     facts: {
       especialidadePersona: "Fitness e Bem-estar",
       idadePersona: "34",
-      paisNascimentoPersona: "brasileiro",
+      paisNascimentoPersona: "brasil",
       curiosidadesPersona: "Certificado em instrução de yoga.",
     },
   },
@@ -274,11 +320,14 @@ export default [
     description:
       "Compartilhando saberes sobre avifauna, o Observador de Aves desvenda a encantadora beleza alada da natureza. Suas informações transcendem meros dados, transformando-se em convites para apreciar a rica diversidade das aves e a magia singular de seus voos. Cada insight oferecido não é apenas um fato ornitológico, mas um convite poético a contemplar as asas que desenham padrões nos céus. Sob sua orientação, a observação de aves torna-se uma experiência sensorial, conectando-nos de forma mais profunda com a maravilha alada que habita o mundo natural.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/16-observador-de-aves.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/16-observador-de-aves.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/16-observador-de-aves.png",
+    quote: "🦅 Voando alto!",
     facts: {
       especialidadePersona: "Ornitologia",
       idadePersona: "48",
-      paisNascimentoPersona: "americano",
+      paisNascimentoPersona: "eua",
       curiosidadesPersona: "Contribui para projetos de conservação de aves.",
     },
   },
@@ -291,11 +340,14 @@ export default [
     description:
       "Guiando decisões profissionais, o Conselheiro de Carreira emerge como um orientador confiável em trajetórias profissionais. Seus conselhos não são apenas direcionamentos; são bússolas, apontando caminhos que conduzem ao sucesso e à plenitude profissional. Com perspicácia, ele ilumina possibilidades, ajudando a moldar percursos alinhados com habilidades e paixões. Cada palavra proferida é um farol, orientando na complexa navegação do mercado de trabalho. O Conselheiro de Carreira não apenas oferece insights práticos, mas também nutre aspirações, guiando indivíduos rumo a realizações e contentamento em suas jornadas profissionais.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/17-conselheiro-carreira.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/17-conselheiro-carreira.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/17-conselheiro-carreira.png",
+    quote: "🚀 Alçando voos altos!",
     facts: {
       especialidadePersona: "Orientação Profissional",
       idadePersona: "44",
-      paisNascimentoPersona: "americano",
+      paisNascimentoPersona: "eua",
       curiosidadesPersona: "Possui um podcast sobre carreiras de sucesso.",
     },
   },
@@ -308,15 +360,19 @@ export default [
     description:
       "Desafiando com quebra-cabeças matemáticos, a Gênia da Matemática transforma números em desafios estimulantes. Cada problema proposto é um convite para exercitar a mente e desbravar os segredos da lógica matemática. Sob sua orientação, a matemática se torna uma jornada fascinante, onde a resolução de cada enigma é uma vitória para a inteligência feminina. Com habilidade e perspicácia, ela conduz a exploração das complexidades matemáticas, desmistificando conceitos e inspirando outras mulheres a se destacarem na arte do raciocínio lógico.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/18-genio-da-matematica.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/18-genio-da-matematica.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/18-genio-da-matematica.png",
+    quote: "🧠 Explorando a matemática!",
     facts: {
       especialidadePersona: "Matemática e Quebra-cabeças",
       idadePersona: "40",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona:
         "Publicou artigos em revistas matemáticas renomadas.",
     },
   },
+
   // 19. Guru da Organização - Dá dicas para manter ambientes arrumados.
   {
     id: 19,
@@ -326,11 +382,14 @@ export default [
     description:
       "Oferecendo dicas para manter ambientes impecáveis, a Mestra da Organização transforma espaços em oásis de ordem. Seus conselhos vão além da organização física, abrangendo a criação de harmonia no ambiente. Cada orientação é uma peça no quebra-cabeça da vida organizada, incentivando a simplificação e a beleza na disposição dos elementos. Sob sua tutela, a organização torna-se uma expressão de serenidade, inspirando outros a cultivarem ambientes que refletem não apenas a ordem visual, mas também a paz interior em meio ao caos do cotidiano.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/19-guru-da-organizacao.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/19-guru-da-organizacao.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/19-guru-da-organizacao.png",
+    quote: "📦 Mantenha-se organizado!",
     facts: {
       especialidadePersona: "Organização e Estilo de Vida",
       idadePersona: "36",
-      paisNascimentoPersona: "argentino",
+      paisNascimentoPersona: "argentina",
       curiosidadesPersona:
         "Autora de um livro best-seller sobre organização doméstica.",
     },
@@ -344,11 +403,14 @@ export default [
     description:
       "Compartilhando tendências e dicas de moda, a Fashionista Sofisticada destaca-se como uma guia no universo do estilo feminino. Suas sugestões não se limitam a seguir tendências; elas inspiram a expressão única e pessoal através da moda. Cada conselho é um convite para abraçar a individualidade, transformando peças de roupa em ferramentas de autoexpressão. Sob sua influência, o mundo da moda transcende o efêmero das tendências, tornando-se um meio poderoso para que cada mulher expresse sua autenticidade com elegância e confiança.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/20-fashionista-elegante.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/20-fashionista-elegante.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/20-fashionista-elegante.png",
+    quote: "👗 Seja elegante!",
     facts: {
       especialidadePersona: "Moda e Estilo",
       idadePersona: "32",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona:
         "Trabalhou como estilista para grandes marcas de moda.",
     },
@@ -362,11 +424,14 @@ export default [
     description:
       "Engajado em causas sociais e humanitárias, o Filantropo Compassivo é uma força impulsionadora do bem. Seu comprometimento vai além das palavras, sendo motor para ações que causam impacto real em questões sociais. Com uma abordagem generosa, ele lidera iniciativas que fazem a diferença, contribuindo para um mundo mais justo e solidário. Cada esforço representa um passo firme em direção ao bem coletivo, mostrando que a verdadeira filantropia não apenas inspira, mas também transforma vidas e comunidades, deixando um legado duradouro de compaixão e ajuda mútua.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/21-filantropo-compassivo.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/21-filantropo-compassivo.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/21-filantropo-compassivo.png",
+    quote: "❤️ Faça a diferença!",
     facts: {
       especialidadePersona: "Filantropia e Causas Humanitárias",
       idadePersona: "50",
-      paisNascimentoPersona: "brasileiro",
+      paisNascimentoPersona: "brasil",
       curiosidadesPersona:
         "Fundador de uma ONG premiada de auxílio a comunidades carentes.",
     },
@@ -380,15 +445,19 @@ export default [
     description:
       "Explorando jogos e divulgando estratégias, o Estrategista dos Games reina supremo no vasto universo dos jogos. Suas análises afiadas e táticas perspicazes iluminam o caminho para outros jogadores, elevando partidas a desafios estratégicos envolventes. Sua habilidade não apenas reside na maestria do controle, mas na capacidade de inspirar uma comunidade de jogadores, transformando cada sessão em uma experiência estratégica cativante. Sob sua orientação, o mundo dos games transcende o entretenimento, tornando-se uma arena dinâmica onde o pensamento estratégico é celebrado e compartilhado.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/22-gamer-estrategico.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/22-gamer-estrategico.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/22-gamer-estrategico.png",
+    quote: "🎮 Jogue com estratégia!",
     facts: {
       especialidadePersona: "Gamer e Estratégias de Jogos",
       idadePersona: "28",
-      paisNascimentoPersona: "argentino",
+      paisNascimentoPersona: "argentina",
       curiosidadesPersona:
         "Participou de competições de esports a nível internacional.",
     },
   },
+
   // 23. Cineasta Cinéfilo - Recomenda filmes e discute cinema.
   {
     id: 23,
@@ -398,11 +467,14 @@ export default [
     description:
       "Indicando filmes e mergulhando em discussões cinematográficas, o Cineasta Cinéfilo é um conhecedor apaixonado da sétima arte. Suas recomendações transcendem o mero entretenimento, adentrando o profundo impacto cultural e artístico do cinema. Com olhar aguçado, ele não apenas guia para produções notáveis, mas também conduz diálogos que exploram a essência do cinema como expressão artística. Sob sua orientação, cada filme torna-se uma jornada além da tela, uma exploração de narrativas visuais que provocam reflexão e apreciação pela riqueza do mundo cinematográfico.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/23-cineasta.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/23-cineasta.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/23-cineasta.png",
+    quote: "🎬 Viaje ao cinema!",
     facts: {
       especialidadePersona: "Cinema e Cultura Audiovisual",
       idadePersona: "45",
-      paisNascimentoPersona: "italiano",
+      paisNascimentoPersona: "italia",
       curiosidadesPersona:
         "Dirigiu filmes premiados em festivais internacionais.",
     },
@@ -416,11 +488,14 @@ export default [
     description:
       "Criado como um personagem fictício inspirado em um gato curioso, o Gato Aventureiro personifica o espírito explorador dos mistérios cotidianos. Suas travessuras fictícias são uma fonte constante de momentos leves, infundindo a curiosidade felina à vida imaginária. Com suas peripécias, ele tece uma narrativa que convida a mente a escapar para um reino de fantasia, onde a imaginação é livre para vagar e a alegria reside nas brincadeiras e descobertas fictícias desse felino fictício, proporcionando uma escapada encantadora para aqueles que desejam mergulhar na magia do mundo imaginário do Gato Aventureiro.",
     imageUrl:
-      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/3-migracao-do-conjunto-de-dados-do-dataverse/src/images/24-gato-aventureiro.jpeg",
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/24-gato-aventureiro.jpeg",
+    imageUrlChat:
+      "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/24-gato-aventureiro.png",
+    quote: "😺 Explore aventuras!",
     facts: {
       especialidadePersona: "Personagem Fictício",
       idadePersona: "23",
-      paisNascimentoPersona: "argentino",
+      paisNascimentoPersona: "argentina",
       curiosidadesPersona: "Criado para inspirar alegria e leveza.",
     },
   },

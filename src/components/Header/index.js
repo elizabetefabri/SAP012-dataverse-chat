@@ -1,16 +1,20 @@
 import Modal from "../Modal/index.js";
 
-export const Header = () => {
+export const Header = (data) => {
   const header = document.createElement("header");
   header.classList.add("header");
 
   header.innerHTML = `
-      <div class="header__container">
-        <nav class="header__logo">
-          <img class="image__logo" src="./images/logoDesktop.png" alt="Logo DataverseChat" />
+      <div class="header__container header__logo-container">
+        <nav id="headerContainer" class="header__logo">
+          <img class="${data.img.class}" src="${data.img.src}" alt="${data.img.alt}" />
+          <div class="header__text">
+            ${data.description.title ? `<p>${data.description.title}</p>` : ``}
+            ${data.description.subTitle ? `<p>${data.description.subTitle}</p>` : ``}
+          </div>
           <div class="header__links">
-            <a href="">Link painel</a>
-            <a id="abrirModalClick" href="#">Chave api</a>
+            <a href="/">Início</a>
+            <a id="abrirModalClick" href="">Chave api</a>
           </div>
           <a id="mobile" href="#" class="icon">
             <i class="fa fa-bars"></i>

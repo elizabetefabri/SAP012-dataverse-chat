@@ -1,13 +1,25 @@
+import { Header } from "../components/Header/index.js";
+import { Footer } from "../components/Footer/index.js";
 import { Card } from "../components/Card/index.js";
 import { sortData, filterData } from "../lib/dataFunctions.js";
 import data from "../data/dataset.js";
+
+const headerContent = {
+  img: {
+    class: "image__logo",
+    src: "./images/logoDesktop.png",
+    alt: "Logo DataverseChat",
+  },
+  description: "",
+};
+
 let processedData = [];
 let sortedData = [];
 
-const Home = () => {
-  const viewEl = document.createElement("div");
+export const Home = () => {
+  const mainEl = document.createElement("div");
 
-  viewEl.innerHTML = `
+  mainEl.innerHTML = `
   <div class="container__h1">
     <h1>Comunidade Criativa Multifacetada</h1>
   </div>
@@ -38,22 +50,23 @@ const Home = () => {
       <div id="cards"></div>
     </main>
   `;
-
+  const rootElement = document.getElementById("root");
+  rootElement.insertAdjacentElement("beforebegin", Header(headerContent));
   const cardElement = Card(data);
-  viewEl.querySelector("#cards").appendChild(cardElement);
+  mainEl.querySelector("#cards").appendChild(cardElement);
 
-  const filterSelectElement = viewEl.querySelector("#filters");
+  const filterSelectElement = mainEl.querySelector("#filters");
   filterSelectElement.addEventListener("change", function () {
     processedData = filterData(
       data,
       filterSelectElement.name,
       filterSelectElement.value
     );
-    viewEl.querySelector("#cards").innerHTML = "";
-    viewEl.querySelector("#cards").appendChild(Card(processedData));
+    mainEl.querySelector("#cards").innerHTML = "";
+    mainEl.querySelector("#cards").appendChild(Card(processedData));
   });
 
-  const orderSelectElement = viewEl.querySelector("#order");
+  const orderSelectElement = mainEl.querySelector("#order");
   orderSelectElement.addEventListener("change", function () {
     sortedData = sortData(
       processedData,
@@ -61,19 +74,21 @@ const Home = () => {
       orderSelectElement.value
     );
 
-    viewEl.querySelector("#cards").innerHTML = "";
-    viewEl.querySelector("#cards").appendChild(Card(sortedData));
+    mainEl.querySelector("#cards").innerHTML = "";
+    mainEl.querySelector("#cards").appendChild(Card(sortedData));
   });
 
-  const btnLimparElements = viewEl.querySelector("#btn-limpar");
+  const btnLimparElements = mainEl.querySelector("#btn-limpar");
   btnLimparElements.addEventListener("click", function () {
-    viewEl.querySelector("#cards").innerHTML = "";
+    mainEl.querySelector("#cards").innerHTML = "";
     filterSelectElement.value = "Todos";
     orderSelectElement.value = "todos";
-    viewEl.querySelector("#cards").appendChild(Card(data));
+    mainEl.querySelector("#cards").appendChild(Card(data));
   });
 
-  return viewEl;
-};
+  const footerElement = document.createElement("footer");
+  footerElement.appendChild(Footer());
+  rootElement.insertAdjacentElement("afterend", footerElement);
 
-export default Home;
+  return mainEl;
+};

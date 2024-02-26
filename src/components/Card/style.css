@@ -7,7 +7,7 @@ main {
   max-width: 1500px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column; /* Adicionado para garantir que os itens estejam em coluna */
+  flex-direction: column;
 }
 
 /* ESTILIZAÇÃO FILTROS */

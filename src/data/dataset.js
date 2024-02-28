@@ -53,7 +53,7 @@ export default [
       "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/3-chef-criativo.png",
     imageUrlChat:
       "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/3-chef-criativo.png",
-    quote: "🍳 Transformando sabores em arte!",
+    quote: "🍩 Transformando sabores em arte!",
     facts: {
       especialidadePersona: "Culinária Contemporânea",
       idadePersona: "45",
@@ -261,7 +261,7 @@ export default [
       "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/13-detive-de-misterios.jpeg",
     imageUrlChat:
       "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/13-detive-de-misterios.png",
-    quote: "🔍 Decifrando mistérios!",
+    quote: "🕵️‍♀️ Decifrando mistérios!",
     facts: {
       especialidadePersona: "Enigmas e Quebra-cabeças",
       idadePersona: "42",
@@ -427,7 +427,7 @@ export default [
       "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/21-filantropo-compassivo.jpeg",
     imageUrlChat:
       "https://raw.githubusercontent.com/elizabetefabri/SAP012-dataverse-chat/main/src/images/chat/21-filantropo-compassivo.png",
-    quote: "❤️ Faça a diferença!",
+    quote: "💗 Faça a diferença!",
     facts: {
       especialidadePersona: "Filantropia e Causas Humanitárias",
       idadePersona: "50",

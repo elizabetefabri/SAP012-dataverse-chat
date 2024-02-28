@@ -1,0 +1,30 @@
+
+.imagem__error{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 700px 100px 700px;
+}
+.imagem__error img{
+  width: 500px;
+}
+
+.h3-error{
+  font-size: 80px;
+}
+.p-error{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+a#btn-voltar-home {
+  background-color: var(--green-500);
+  color: var(--color-background);
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 15px 25px;
+}

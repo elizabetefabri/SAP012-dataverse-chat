@@ -1,9 +1,9 @@
-import data from "../../data/dataset.js";
-import { Header } from '../../components/Header/index.js';
-import loadStyle from "../../components/styleLoader.js";
+import data from "../../../data/dataset.js";
+import { Header } from '../../../components/Header/index.js';
+import loadStyle from "../../../components/styleLoader.js";
 
 export const Chat = ({ id }) => {
-  loadStyle("../../styles/chat.css");
+  loadStyle("./views/pages/Chat/style.css");
   const users = data.find((users) => users.id === parseInt(id));
 
   const viewEl = document.createElement("div");

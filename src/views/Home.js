@@ -21,10 +21,10 @@ export const Home = () => {
 
   mainEl.innerHTML = `
   <div class="container__h1">
-    <h1>Comunidade Criativa</h1>
+    <h1 class="h1">Comunidade Criativa</h1>
   </div>
-  <main>
-    <h2>Uma plataforma que reúne o Artista Expressivo, o Músico Melódico, o Observador de Aves, o Fashionista Elegante e outros. Os usuários podem compartilhar suas criações artísticas, músicas, fotos de aves, dicas de moda, receitas inspiradas na natureza e participar de desafios criativos. Um espaço onde diferentes formas de expressão se encontram.</h2>
+  <main class="main">
+    <h2>Clique em um Card e Participe de Conversas sobre Arte, Música, Moda e Mais!</h2>
       <section>
         <div class="section-filters">
         <label for="filters" id="search-filters" class="filters">Filtrar por:</label>
@@ -47,6 +47,7 @@ export const Home = () => {
           </button>
         </div>
       </section>
+
       <div id="cards"></div>
     </main>
   `;

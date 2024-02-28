@@ -1,5 +1,5 @@
 import { Home } from "./views/Home.js";
-import { Chat } from "./views/Chat.js";
+import { Chat } from "./views/pages/Chat.js";
 
 import { setRootEl, setRoutes, onURLChange } from "./router.js";
 

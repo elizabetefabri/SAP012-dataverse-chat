@@ -1,20 +1,21 @@
 import Modal from "../Modal/index.js";
+import loadStyle from "../styleLoader.js";
 
 export const Header = (data) => {
+  loadStyle("./components/Header/style.css");
+
   const header = document.createElement("header");
   header.classList.add("header");
 
   header.innerHTML = `
       <div class="header__container header__logo-container">
         <nav id="headerContainer" class="header__logo">
-          <img class="${data.img.class}" src="${data.img.src}" alt="${data.img.alt}" />
-          <div class="header__text">
-            ${data.description.title ? `<p>${data.description.title}</p>` : ``}
-            ${data.description.subTitle ? `<p>${data.description.subTitle}</p>` : ``}
-          </div>
+        <img class="image__logo" src="./images/logoDesktop.png" alt="${data.img.alt}" />
+
+
           <div class="header__links">
             <a href="/">Início</a>
-            <a id="abrirModalClick" href="">Chave api</a>
+            <a id="abrirModalClick" href="#">Chave api</a>
           </div>
           <a id="mobile" href="#" class="icon">
             <i class="fa fa-bars"></i>

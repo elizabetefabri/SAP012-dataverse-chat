@@ -1,4 +1,8 @@
+import loadStyle from "../styleLoader.js";
+
 export const Card = (data) => {
+  loadStyle("./components/Card/style.css");
+
   const ul = document.createElement("ul");
   ul.classList.add("container__card");
   ul.id = "cards";
@@ -13,7 +17,7 @@ export const Card = (data) => {
               <dt><img src="${item.imageUrl}" alt="Imagem do Filme" itemprop="${item.name}" class="image__card" /></dt>
               <dd itemprop="name" class="name__card">${item.name}</dd>
               <dd itemprop="idadePersona" class="idade__card">Sou ${item.facts.paisNascimentoPersona}, com ${item.facts.idadePersona} anos</dd>
-              <dd itemprop="shortDescription" class="description__card">${item.shortDescription}</dd>
+              <dd itemprop="shortDescription" class="shortDescription__card">${item.shortDescription}</dd>
             </dl>
           </a>
         </div>

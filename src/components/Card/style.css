@@ -165,12 +165,11 @@ dl {
     padding: 5px;
   }
   .idade__card {
-
     font-size: 0.5rem;
   }
   .shortDescription__card {
     padding: 0.6rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -188,7 +187,7 @@ dl {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    align-items: stretch
+    align-items: stretch;
   }
   label{
     font-size: 20px;

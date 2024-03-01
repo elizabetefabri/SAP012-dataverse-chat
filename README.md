@@ -47,7 +47,7 @@
     </tr>
     <tr>
       <td>03</td>
-      <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/cancel.png"></td>
+      <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/check.png"></td>
       <td>Marco 03</td>
       <td align="center">
         <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-03/README.md" target="_blank">

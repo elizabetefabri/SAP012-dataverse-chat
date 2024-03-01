@@ -18,3 +18,6 @@ Armazenar de forma segura sua chave de API e garantir que nosso aplicativo se co
 ### Estilização do Chat, e conexão com API
 ![Imagem desktop](chat-individual.png)
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+
+##### Desenvolvido por <span>Elizabete Fabri</span> 💚

@@ -1,9 +1,8 @@
 /* ESTILIZAÇÃO DA .MAIN */
-
 .main {
   padding: 2.5rem;
   background-color: var(--color-white);
-  border-radius: 1.25rem 1.25rem 0px 0px;
+  border-radius: 1.25rem;
   max-width: 1500px;
   margin: 0 auto;
   display: flex;
@@ -11,13 +10,21 @@
 }
 
 /* ESTILIZAÇÃO FILTROS */
-
 .filtros {
   display: flex;
   flex-direction: column;
 }
 
-.section-filters input {
+.section-filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.section-filters input[type="text"] {
   width: 31.25rem;
   height: 3.12rem;
   border: 2px solid var(--color-text-01);
@@ -27,35 +34,15 @@
   color: #6a738d;
 }
 
-.section-filters,
-.section-filters {
-  display: flex;
-  text-align: right;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-
 #filters,
 #order {
   font-size: 1.25rem;
   color: var(--color-text-01);
   padding: 5px;
-  border: none;
-  margin: 0.62rem;
   border: solid 1px var(--color-text-01);
   background: transparent;
   border-radius: 5px;
-}
-/* .section-filters .section-filters select:focus {
-  outline: none;
-} */
-.section-filters .section-filters select::-ms-expand,
-.section-filters,
-.section-filters select::-ms-expand {
-  width: 15px;
+  margin: 0.62rem;
 }
 
 #btn-limpar {
@@ -87,11 +74,9 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  justify-content: space-between;
 }
 
 li {
-
   max-width: 20.62rem;
   margin-right: 1.25rem;
   margin-bottom: 1.25rem;
@@ -105,10 +90,6 @@ li:last-child {
 
 .link__card {
   text-decoration: none;
-}
-
-dd {
-  margin-left: 0;
 }
 
 dl {
@@ -135,7 +116,6 @@ dl {
   margin-top: -0.62rem;
   border-radius: 8px 8px 0px 0px;
   width: 100%;
-  /* height: 270px; */
 }
 
 .name__card {
@@ -145,7 +125,7 @@ dl {
   text-align: center;
 }
 
-.idade__card{
+.idade__card {
   color: var(--color-description);
   font-size: 0.9rem;
   text-align: center;
@@ -156,10 +136,9 @@ dl {
   color: var(--color-description);
   font-size: 1rem;
   text-align: center;
-
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 750px) {
   .name__card {
     font-size: 1rem;
     padding: 5px;
@@ -174,11 +153,11 @@ dl {
 }
 
 @media only screen and (max-width: 768px) {
-  h1{
+  h1 {
     font-size: 2rem;
   }
   .main h2 {
-    padding: 0px;
+    padding: 0;
     text-align: justify;
     margin-bottom: 25px;
   }
@@ -189,36 +168,28 @@ dl {
     align-content: center;
     align-items: stretch;
   }
-  label{
+  label {
     font-size: 20px;
     text-align: left;
-    margin-top: 10px
+    margin-top: 10px;
   }
-  select#filters{
-    margin: 0px;
-    width: 100%;
-  }
-  select#order{
-    margin: 0px;
+  select#filters,
+  select#order {
+    margin: 0;
     width: 100%;
   }
   .container__card {
-    margin-right: 0px;
+    margin-right: 0;
+    justify-content: space-between;
   }
   #order {
     margin: 10px;
   }
-  button#btn-limpar{
+  button#btn-limpar {
     font-size: 20px;
     margin-top: 20px;
   }
-  .container__card{
-    justify-content: space-between;
-
-  }
-  dl{
+  dl {
     min-height: 1rem;
   }
-
-
 }

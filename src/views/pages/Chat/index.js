@@ -1,6 +1,6 @@
 import data from "../../../data/dataset.js";
 import { Header } from '../../../components/Header/index.js';
-import loadStyle from "../../../components/styleLoader.js";
+import loadStyle from "../../../styleLoader.js";
 import { communicateWithOpenAI } from "../../../lib/openAIApi.js";
 
 export const Chat = ({ id }) => {

@@ -3,12 +3,11 @@
   background-color: var(--color-header);
   color: var(--color-white);
   padding: 3.12rem 0;
-  /* position: fixed; */
   text-align: center;
 }
+
 .footer p {
   font-size: 1.25rem;
-  color: var(--color-white);
   padding-top: 1.25rem;
 }
 

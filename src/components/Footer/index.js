@@ -1,4 +1,4 @@
-import loadStyle from "../styleLoader.js";
+import loadStyle from "../../styleLoader.js";
 
 export const Footer = () => {
   loadStyle('./components/Footer/style.css');

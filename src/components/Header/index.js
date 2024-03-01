@@ -1,5 +1,5 @@
 import Modal from "../Modal/index.js";
-import loadStyle from "../styleLoader.js";
+import loadStyle from "../../styleLoader.js";
 
 export const Header = (data) => {
   loadStyle("./components/Header/style.css");

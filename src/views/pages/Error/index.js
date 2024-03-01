@@ -1,5 +1,5 @@
 
-import loadStyle from "../../../components/styleLoader.js";
+import loadStyle from "../../../styleLoader.js";
 
 export const Error = () => {
   loadStyle("./views/pages/Error/style.css");

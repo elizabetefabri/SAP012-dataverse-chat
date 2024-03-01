@@ -1,5 +1,5 @@
 import { getApiKey, setApiKey } from "../../lib/apiKey.js";
-import loadStyle from "../styleLoader.js";
+import loadStyle from "../../styleLoader.js";
 
 export const renderModal = () => {
   loadStyle("./components/Modal/style.css");

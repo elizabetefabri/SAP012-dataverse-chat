@@ -116,6 +116,12 @@
   * {
     font-family: "Nunito", sans-serif;
   }
+  #chat{
+    width: 100%;
+    overflow-y: auto;
+    padding: 10px;
+    height: 65vh;
+  }
   .individual {
     border-bottom: 1px solid #c9c9c9;
   }

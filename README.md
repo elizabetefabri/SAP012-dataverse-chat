@@ -21,47 +21,47 @@
       <th>Nº</th>
       <th>Status</th>
       <th>Etapas</th>
-      <th>Marcos do Projeto</th>
+      <th>Etapas do Desenvolvimento do Projeto</th>
     </tr>
   </thead>
   <tbody align="left">
     <tr>
       <td>01</td>
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/check.png"></td>
-      <td>Marco 01</td>
+      <td>Marco 01 SPA - Protótipos.</td>
       <td align="center">
         <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-01/README.md" target="_blank">
-           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-090912?style=for-the-badge" width="150px">
+           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20desenvolvimento-090912?style=for-the-badge" width="250px">
         </a>
       </td>
     </tr>
     <tr>
       <td>02</td>
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/check.png"></td>
-      <td>Marco 02</td>
+      <td>Marco 02 DADOS - Vizualização do sistema, funções de filtragem, ordenação e cálculo.</td>
       <td align="center">
         <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-02/README.md" target="_blank">
-           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-74BA9C?style=for-the-badge" width="150px">
+           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20desenvolvimento-74BA9C?style=for-the-badge" width="250px">
         </a>
       </td>
     </tr>
     <tr>
       <td>03</td>
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/check.png"></td>
-      <td>Marco 03</td>
+      <td>Marco 03 API - Conectar com API OpenAI(chat individual).</td>
       <td align="center">
         <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-03/README.md" target="_blank">
-           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-090912?style=for-the-badge" width="150px">
+           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20desenvolvimento-090912?style=for-the-badge" width="250px">
         </a>
       </td>
     </tr>
     <tr>
       <td>04</td>
       <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/cancel.png"></td>
-      <td>Marco 04</td>
+      <td>Marco 04 API - Conectar a API OpenAI(chat grupal).</td>
       <td align="center">
         <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-04/README.md" target="_blank">
-           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20MILESTONE-74BA9C?style=for-the-badge" width="150px">
+           <img align="center" alt="Botao" src="https://img.shields.io/badge/Ver%20desenvolvimento-74BA9C?style=for-the-badge" width="250px">
         </a>
       </td>
     </tr>

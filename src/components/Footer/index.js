@@ -10,7 +10,9 @@ export const Footer = () => {
     <footer class="footer">
 
       <div class="container__footer">
-      <img src="../../images/logoDesktop.png" alt="logo" class="logo__footer">
+      <a href="/" class="link__logo">
+          <img class="image__logo" src="./images/logoDesktop.png" alt="Logo DataverseChat" />
+      </a>
         <div class="socialIcons">
         <a href="https://github.com/in/elizabetefabri" target="_blank">
 

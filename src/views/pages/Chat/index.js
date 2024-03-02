@@ -10,19 +10,15 @@ export const Chat = ({ id }) => {
   const viewEl = document.createElement("div");
   viewEl.classList.add("background");
 
-  const personaDescriptionToChat = `Você é um*-*: ${users.name}.${users.shortDescription}`;
+  const personaDescriptionToChat = `Você é um: ${users.name}.${users.shortDescription}`;
 
   const headerData = {
     img: {
-      class: "image__users",
       src: `${users.imageUrlChat}`,
       alt: "Image users",
     },
-    description: {
-      title: `${users.name}`,
-      subTitle: `${users.quote}`,
-    },
   };
+
   viewEl.innerHTML = `
     <main class="container__main">
       <div class="content-main">
@@ -37,8 +33,7 @@ export const Chat = ({ id }) => {
           </div>
         </section>
 
-        <div class="centralizado">
-          <section id="chat">
+        <section id="chat">
             <div id="messages">
             </div>
           </section>
@@ -51,16 +46,14 @@ export const Chat = ({ id }) => {
               </button>
             </div>
           </section>
-        </div>
       </div>
     </main>
   `;
-
-  const parentElement = document.getElementById("root");
-
-  const headerElement = document.createElement("header");
-  headerElement.appendChild(Header(headerData));
-  parentElement.insertAdjacentElement("beforebegin", headerElement);
+  document.body.insertAdjacentHTML("beforebegin", `
+  <header>
+    ${Header(headerData).outerHTML}
+  </header>
+`);
 
   const input__chat = viewEl.querySelector("#input__chat");
   const btn__enviar_chat = viewEl.querySelector("#btn_enviar_chat");
@@ -111,6 +104,7 @@ export const Chat = ({ id }) => {
       console.error("Erro ao se comunicar com a OpenAI", error);
     }
   }
+
   return viewEl;
 };
 

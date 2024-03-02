@@ -9,13 +9,15 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage src/test/",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-    "start": "serve src/ -s"
+    "start": "serve src/ -s",
+    "build": "copyfiles src/* dist"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "acorn": "^8.8.2",
     "babel-jest": "^27.0.1",
+    "copyfiles": "^2.4.1",
     "css": "^3.0.0",
     "eslint": "^8.3.0",
     "eslint-plugin-import": "^2.29.1",

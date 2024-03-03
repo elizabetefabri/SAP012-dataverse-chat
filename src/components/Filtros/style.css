@@ -1,0 +1,84 @@
+/* ESTILIZAÇÃO FILTROS */
+.filtros {
+  display: flex;
+  flex-direction: column;
+}
+.section-filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content:center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.section-filters input[type="text"] {
+  width: 31.25rem;
+  height: 3.12rem;
+  border: 2px solid var(--color-text-01);
+  border-radius: 5px;
+  padding-left: 0.62rem;
+  font-size: 16px;
+  color: #6a738d;
+}
+
+#filters,
+#order {
+  font-size: 1.25rem;
+  color: var(--color-text-01);
+  padding: 5px;
+  border: solid 1px var(--color-text-01);
+  background: transparent;
+  border-radius: 5px;
+  margin: 0.62rem;
+}
+
+#btn-limpar {
+  background-color: var(--green-500);
+  font-size: 1.1rem;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: var(--color-white);
+  border: none;
+  padding: 0.62rem 1.25rem;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .section-filters {
+    justify-content: left;
+    flex-direction: row;
+    align-content: space-between;
+  }
+  label {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  select#filters,
+  select#order {
+    margin: 0;
+    width: 100%;
+  }
+  .container__card {
+    margin-right: 0;
+    justify-content: space-between;
+  }
+  #order {
+    margin: 10px;
+  }
+  button#btn-limpar {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  dl {
+    min-height: 1rem;
+  }
+}

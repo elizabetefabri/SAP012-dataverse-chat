@@ -1,0 +1,195 @@
+/* ESTILIZAÇÃO DA .MAIN */
+.main {
+  padding: 2.5rem;
+  background-color: var(--color-white);
+  border-radius: 1.25rem;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ESTILIZAÇÃO FILTROS */
+.filtros {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.section-filters input[type="text"] {
+  width: 31.25rem;
+  height: 3.12rem;
+  border: 2px solid var(--color-text-01);
+  border-radius: 5px;
+  padding-left: 0.62rem;
+  font-size: 16px;
+  color: #6a738d;
+}
+
+#filters,
+#order {
+  font-size: 1.25rem;
+  color: var(--color-text-01);
+  padding: 5px;
+  border: solid 1px var(--color-text-01);
+  background: transparent;
+  border-radius: 5px;
+  margin: 0.62rem;
+}
+
+#btn-limpar {
+  background-color: var(--green-500);
+  font-size: 1.1rem;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: var(--color-white);
+  border: none;
+  padding: 0.62rem 1.25rem;
+  cursor: pointer;
+}
+
+.main > h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--color-font-01);
+  margin-bottom: 3.12rem;
+  padding: 1.25rem;
+}
+
+/* Estilização dos Cards */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  max-width: 20.62rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.56);
+  width: calc(50% - 1.25rem);
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+.link__card {
+  text-decoration: none;
+}
+
+dl {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 30.9rem;
+  margin-top: 0.62rem;
+}
+
+.container__card {
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content__card {
+  margin: 0 auto;
+}
+
+.image__card {
+  margin-top: -0.62rem;
+  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+}
+
+.name__card {
+  padding: 1rem;
+  color: var(--color-text-01);
+  font-size: 1.37rem;
+  text-align: center;
+}
+
+.idade__card {
+  color: var(--color-description);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.shortDescription__card {
+  padding: 1.25rem;
+  color: var(--color-description);
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .name__card {
+    font-size: 1rem;
+    padding: 5px;
+  }
+  .idade__card {
+    font-size: 0.5rem;
+  }
+  .shortDescription__card {
+    padding: 0.6rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .main h2 {
+    padding: 0;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+  .section-filters {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+  }
+  label {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  select#filters,
+  select#order {
+    margin: 0;
+    width: 100%;
+  }
+  .container__card {
+    margin-right: 0;
+    justify-content: space-between;
+  }
+  #order {
+    margin: 10px;
+  }
+  button#btn-limpar {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  dl {
+    min-height: 1rem;
+  }
+}

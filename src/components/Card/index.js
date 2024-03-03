@@ -10,7 +10,7 @@ export const Card = (data) => {
   data.forEach((item) => {
 
     ul.innerHTML += `
-      <li itemscope itemtype="OsMelhoresFilmes" class="container__card">
+      <li itemscope itemtype="OsMelhoresFilmes" class="contente">
         <div class="content__card">
           <a href="chat?id=${item.id}" class="link__card">
             <dl itemscope itemtype="#">

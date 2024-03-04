@@ -29,8 +29,8 @@ export const Header = (data) => {
           </a>
         </nav>
         <div id="myLinks" class="header__mobile-links">
-          <a href="#">Link painel</a>
-          ${linkChat ? `<a href="/" class="header__mobile-link">Home</a>` : ``}
+          <a href="/">Início</a>
+          ${linkChat ? '' : `<a href="grupo" class="header__link">Grupo</a>`}
           <a id="abrirModalClickMobile" href="#">Chave api</a>
         </div>
       </div>

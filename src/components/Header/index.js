@@ -40,7 +40,8 @@ export const Header = (data) => {
   const abrirModalClick = header.querySelector("#abrirModalClick");
   const abrirModalClickMobile = header.querySelector("#abrirModalClickMobile");
   const mobileToggle = header.querySelector("#mobile");
-  const mobileLinks = header.querySelector("#myLinks");
+  const mobileLinks = header.querySelector("#myLinks.header__mobile-links");
+
 
   abrirModalClick.addEventListener("click", () => {
     rootElement.appendChild(Modal());

@@ -6,8 +6,9 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.54);
 }
+
 div.content__modal {
-  margin-top:30px;
+  margin-top: 30px;
 }
 
 #modal {
@@ -40,17 +41,23 @@ div.content__modal {
 
 .input__modal input {
   font-size: 1.7rem;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #c9c9c9;
 }
 
-.content__modal > h2 {
+.input__modal input::placeholder {
+  font-size: 1rem;
+
+}
+
+.content__modal > h2,
+.content__modal h3 {
   font-weight: 500;
 }
 
 .content__modal h3 {
   text-align: center;
-  font-weight: 500;
-  /* border-bottom: 1px solid #c9c9c9; */
 }
 
 .input__modal button {
@@ -60,15 +67,13 @@ div.content__modal {
 #btn__modal {
   background-color: var(--green-500);
   color: var(--color-white);
-  border-radius: 10px 10px 10px 10px;
-  font-size:16px;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 #close__modal {
   display: flex;
-  justify-content: right;
-  /* margin-top: 10px; */
-  margin-left: 250px;
+  justify-content: flex-end;
   color: #aaa;
   font-size: 1rem;
   font-weight: 400;
@@ -83,31 +88,25 @@ div.content__modal {
 
 /* For desktop: */
 @media only screen and (min-width: 768px) {
-  /* #modal {
-    width: 50%;
-    height: 30%;
-  } */
   .input__modal {
     width: 100%;
     flex-direction: row;
     gap: 0;
   }
+
   .input__modal input {
-    border: solid 1px #c9c9c9;
-    width: 100%;
-    font-size: 1.7rem;
+    width: calc(100% - 100px);
+    border-right: none;
     border-radius: 8px 0 0 8px;
   }
+
   #btn__modal {
     border-radius: 0 10px 10px 0;
+    width: 100px;
   }
+
   #close__modal {
-    display: flex;
-    justify-content: right;
-    /* margin-top: 10px; */
-    margin-left: 355px;
-    color: #aaa;
-    font-size: 1rem;
-    font-weight: 400;
+    justify-content: flex-end;
+    margin-left: auto;
   }
 }

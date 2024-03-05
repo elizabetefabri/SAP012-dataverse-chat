@@ -1,16 +1,19 @@
+import styleLoader  from "../../styleLoader.js";
 export const dadosUsuarios = (data) => {
-  const ul = document.createElement("ul");
-  ul.classList.add("#usuarios");
-  ul.id = "cards";
+  styleLoader("../Usuario/style.css");
 
-  data.forEach((item) => {
+  const ul = document.createElement("ul");
+  ul.classList.add("user-cards");
+  ul.id = "user-cards-ul";
+
+  data.forEach((user) => {
     ul.innerHTML += `
-      <li class="usuario-group">
-        <a href="chat?id=${item.id}" class="usuario-list__link">
-          <img src="${item.imageUrlChat}" alt="image item" style="width: 50px; height: 50px;">
-          <div class="usuario-description">
-              <p class="usuario-title">${item.name}</p>
-              <p class="usuario-subTitle">${item.quote}</p>
+      <li class="user-card">
+        <a href="chat?id=${user.id}" class="user-card__link">
+          <img src="${user.imageUrl}" alt="Imagem do usuário" style="width: 65px; height: 65px;">
+          <div class="user-description">
+            <p class="user-name">${user.name}</p>
+            <p class="user-quote">${user.quote}</p>
           </div>
         </a>
       </li>

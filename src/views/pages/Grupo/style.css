@@ -15,12 +15,14 @@ header{
 }
 /* Background */
 .background {
-  display: flex;
   background-image: url("../../../images/chat/background-chat.png");
 }
 
 /* DESKTOP RESPONSIVO */
 @media only screen and (min-width: 768px) {
+  .background {
+    display: flex;
+  }
   main.container__main {
     margin-top: 6.5rem;
     border-right: 1px solid #c9c9c9;
@@ -91,12 +93,6 @@ header{
     margin-bottom: 0.5rem;
   }
 
-  /* .user-message {
-    background-color: #FACDCD;
-    border-radius: 10px 10px 0 10px;
-    text-align: right;
-  } */
-
   .user-message {
     position: relative;
     font-family: "Nunito", sans-serif;
@@ -118,10 +114,6 @@ header{
     font-size: 0.9rem;
     font-weight: 400;
     margin: 0;
-  }
-
-  #container__dados {
-    /* margin-top: 7rem; */
   }
 
   .chat-content {
@@ -203,4 +195,127 @@ header{
   }
 }
 /* MOBILE RESPONSIVO */
-@media only screen and (max-width: 768px){}
+@media only screen and (max-width: 768px){
+  /* main container */
+  .container__main{
+    margin-top: 7rem;
+  }
+
+  main.container__main {
+    margin-top: 6.5rem;
+    border-right: 1px solid #c9c9c9;
+    /* width: 72%; */
+  }
+
+  .centralizado {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: auto;
+    height: 100vh;
+  }
+
+  .individual {
+    border-bottom: 1px solid #c9c9c9;
+  }
+  #chat{
+    width: 100%;
+    overflow-y: auto;
+    /* padding: 10px; */
+    height: 65vh;
+
+  }
+  .container__input {
+    border-top: 1px solid #c9c9c9;
+  }
+
+  .container_input__chat {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .container__name {
+    margin-left: 10px;
+  }
+
+  .container__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+
+  #container__dados{
+    display: none;
+  }
+  .container__dados{
+    margin-top: 7rem;
+  }
+  #chat{
+    width: 100%;
+    overflow-y: auto;
+    /* padding: 10px; */
+    height: 65vh;
+  }
+
+  #btn_enviar_chat {
+    background-color: var(--green-500);
+    color: var(--color-white);
+    border-radius: 0 10px 10px 0;
+    font-size: 16px;
+    height: 40px;
+    width: 140px;
+  }
+
+  .input__chat {
+    width: 90%;
+    height: 40px;
+    font-size: 1.2rem;
+    border: solid 1px #c9c9c9;
+    border-radius: 10px 0 0 10px;
+    border-right-width: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .user-message,
+  .openai-message {
+    position: relative;
+    font-weight: 500;
+    padding: 1%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .user-message {
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    background-color: #fff8e3;
+    border-radius: 10px 10px 0px 10px;
+    padding: 1%;
+    text-align: right;
+    margin-bottom: 0.5rem;
+  }
+
+  .openai-message {
+    background-color: #d9fdd3;
+    border-radius: 0 10px 10px 10px;
+    text-align: left;
+  }
+
+  #openai_digitando {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .chat-content {
+    width: 100%;
+  }
+
+  .desktop-content {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    height: 100vh;
+    overflow-y: auto;
+  }
+}

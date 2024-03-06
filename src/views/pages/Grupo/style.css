@@ -26,7 +26,7 @@ header{
   main.container__main {
     margin-top: 6.5rem;
     border-right: 1px solid #c9c9c9;
-    width: 72%;
+    width: 80%;
   }
 
   .centralizado {
@@ -143,7 +143,6 @@ header{
 
   #user-cards {
     margin-top: 7rem;
-    width: 550px;
   }
 
   ul.user-cards {
@@ -200,7 +199,7 @@ header{
   main.container__main {
     margin-top: 7rem;
     border-right: 1px solid #c9c9c9;
-    /* width: 72%; */
+    /* width: 80%; */
   }
 
   .centralizado {

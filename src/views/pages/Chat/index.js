@@ -120,9 +120,6 @@ const insertHeaderBefore = (viewEl) => {
     },
   };
 
-  document.body.insertAdjacentHTML("beforebegin", `
-    <header>
-      ${Header(headerData).outerHTML}
-    </header>
-  `);
+  const rootElement = document.getElementById("root");
+  rootElement.insertAdjacentElement("beforebegin", Header(headerData));
 };

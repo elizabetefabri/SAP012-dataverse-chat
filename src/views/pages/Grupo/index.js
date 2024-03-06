@@ -93,7 +93,9 @@ export const Grupo = () => {
     </section>
   `;
 
-  document.body.insertAdjacentHTML("beforebegin", `<header>${Header(headerData).outerHTML}</header>`);
+  // document.body.insertAdjacentHTML("beforebegin", `<header>${Header(headerData).outerHTML}</header>`);
+  const rootElement = document.getElementById("root");
+  rootElement.insertAdjacentElement("beforebegin", Header(headerData));
 
   const cardElement = dadosUsuarios(data);
   viewEl.querySelector("#user-cards").appendChild(cardElement);

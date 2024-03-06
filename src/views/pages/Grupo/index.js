@@ -11,47 +11,8 @@ const headerData = {
   },
   description: {
     title: "Bate papo em Grupo",
-    subTitle: `24 membros, e tem 24 digitando...`,
+    subTitle: `${data.length} membros, e tem ${data.length} digitando...`,
   },
-};
-
-// Função para atualizar o chat com uma nova mensagem
-const updateChat = (message) => {
-  const messages = document.querySelector("#messages");
-  messages.insertAdjacentHTML('beforeend', `<div class="${message.role}-message">${message.content}</div>`);
-};
-
-// Função para enviar mensagem para um usuário específico
-const sendMessageToUser = async (user) => {
-  try {
-    // Envia uma mensagem para o usuário atual e espera pela resposta da OpenAI
-    const resposta = await communicateWithOpenAI([{ role: "user", content: user.name }]);
-    // Atualiza o chat com a resposta da OpenAI
-    updateChat({ role: "openai", content: ` ${resposta.content}` });
-  } catch (error) {
-    // Se houver um erro ao enviar a mensagem, loga o erro no console
-    console.error(`Erro ao enviar mensagem para ${user.name}:`, error);
-  }
-};
-
-// Função para enviar mensagens para todos os usuários do grupo
-const sendMessagesToAllUsers = async () => {
-  // Define o texto indicando que as mensagens estão sendo enviadas para todos os usuários
-  const openai_digitando = document.querySelector("#openai_digitando");
-  openai_digitando.textContent = "Enviando mensagens para todos os usuários...";
-  const users = data;
-  // Cria uma lista de promessas para enviar mensagens para cada usuário usando a função sendMessageToUser
-  const userPromises = users.map(sendMessageToUser);
-  try {
-    // Aguarda que todas as promessas sejam resolvidas usando Promise.all
-    await Promise.all(userPromises);
-  } catch (error) {
-    // Se houver um erro ao enviar mensagens para todos os usuários, loga o erro no console
-    console.error("Erro ao enviar mensagens para todos os usuários:", error);
-  } finally {
-    // Limpa o texto indicando que as mensagens estão sendo enviadas
-    openai_digitando.textContent = "";
-  }
 };
 
 export const Grupo = () => {
@@ -59,8 +20,6 @@ export const Grupo = () => {
 
   const viewEl = document.createElement("div");
   viewEl.classList.add("background");
-
-  // const users = data;
 
   viewEl.innerHTML = `
     <main class="container__main">
@@ -93,7 +52,37 @@ export const Grupo = () => {
     </section>
   `;
 
-  // document.body.insertAdjacentHTML("beforebegin", `<header>${Header(headerData).outerHTML}</header>`);
+  const conversationHistory = [];
+
+  const updateChat = (message) => {
+    const messages = document.querySelector("#messages");
+    messages.insertAdjacentHTML('beforeend', `<div class="${message.role}-message">${message.content}</div>`);
+  };
+
+  const sendMessageToUser = async (user, mensagemEnviada) => {
+    try {
+      conversationHistory.push({ role: "user", content: `Se comporte como assistente ${user.name} e responda a seguinte pergunta: ${mensagemEnviada}` });
+      const resposta = await communicateWithOpenAI(conversationHistory);
+      updateChat({ role: "openai", content: ` ${resposta.content}` });
+    } catch (error) {
+      console.error(`Erro ao enviar mensagem para ${user.name}:`, error);
+    }
+  };
+
+  const sendMessagesToAllUsers = async (mensagemEnviada) => {
+    const openai_digitando = document.querySelector("#openai_digitando");
+    openai_digitando.textContent = "Enviando mensagens para todos os usuários...";
+    const users = data.slice(0, 24); // Pegando do elemento 0 ao 24 correto
+    const userPromises = users.map((user) => sendMessageToUser(user, mensagemEnviada));
+    try {
+      await Promise.all(userPromises);
+    } catch (error) {
+      console.error("Erro ao enviar mensagens para todos os usuários:", error);
+    } finally {
+      openai_digitando.textContent = "";
+    }
+  };
+
   const rootElement = document.getElementById("root");
   rootElement.insertAdjacentElement("beforebegin", Header(headerData));
 
@@ -109,7 +98,7 @@ export const Grupo = () => {
 
     updateChat({ role: "user", content: `${mensagemEnviada}` });
     input__chat.value = "";
-    sendMessagesToAllUsers();
+    sendMessagesToAllUsers(mensagemEnviada);
   };
 
   input__chat.addEventListener("keypress", (event) => {

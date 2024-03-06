@@ -14,7 +14,7 @@
   }
   #chat{
     overflow-y: auto;
-    height: 65vh;
+    height: 60vh;
   }
   .individual {
     border-bottom: 1px solid #c9c9c9;
@@ -35,14 +35,14 @@
   }
 
   main.container__main {
-    margin-top: 6.5rem;
+    margin-top: 7rem;
   }
   .content-main {
     display: flex;
     flex-direction: column;
   }
   .container__main {
-    padding: 2.5rem;
+    padding: 1.8rem;
     background-color: rgba(255, 255, 255, 0.5);
     /* border-radius: 1.25rem 1.25rem 0px 0px; */
     /* max-width: 1500px; */

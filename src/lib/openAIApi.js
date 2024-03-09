@@ -1,20 +1,18 @@
 import { getApiKey } from './apiKey.js';
 
 export const communicateWithOpenAI = async (messages) => {
-  const OPENAI_API_KEY = getApiKey();
   const url = 'https://api.openai.com/v1/chat/completions';
-  const api = "Bearer " + OPENAI_API_KEY;
+  const api_key = getApiKey();
 
   try {
     const response = await fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': api
+        'Authorization': `Bearer ${api_key}`
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
-        // temperature: 0.7,
         messages
       })
     });
@@ -25,12 +23,16 @@ export const communicateWithOpenAI = async (messages) => {
 
     const data = await response.json();
 
-    if (data.choices && data.choices.length > 0) {
-      return data.choices[0].message;
+    if (data.choices && data.choices.length > 0 && data.choices[0].message) {
+      return {
+        success: true,
+        content: data.choices[0].message.content,
+      };
     } else {
       throw new Error('No messages found');
     }
   } catch (error) {
-    throw new Error('Communication with OpenAI failed: ' + error.message);
+    console.error('Ocorreu um erro:', error);
+    throw error;
   }
 };

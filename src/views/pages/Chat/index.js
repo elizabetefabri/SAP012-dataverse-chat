@@ -24,7 +24,7 @@ export const Chat = ({ id }) => {
 
   // Histórico de conversas
   const conversationHistory = [
-    { role: "system", content: `Você é um ${user.name}: ${user.shortDescription}` },
+    { role: "system", content: `Você é um assistente prestativo com o ${user.name}: ${user.shortDescription}` },
   ];
 
   // Atualizar chat com nova mensagem
@@ -34,7 +34,7 @@ export const Chat = ({ id }) => {
 
   // Adicionar mensagem ao histórico de conversas
   const addMessageToHistory = (role, content) => {
-    conversationHistory.push({ role, content });
+    conversationHistory.push({role, content  });
   };
 
   // Enviar mensagem do usuário para a OpenAI e atualizar o chat
@@ -50,7 +50,7 @@ export const Chat = ({ id }) => {
   // Enviar mensagem para a OpenAI e atualizar o chat
   const sendOpenAIMessage = async () => {
     const response = await communicateWithOpenAI(conversationHistory);
-    updateChat({ role: "openai", content: `<img src="../../../images/chat/icon-chat.png" alt="image" style="width: 30px; height: 30px;"> ${response.content}` });
+    updateChat({ role: "openai", content: `<img class="image-robo-chat" src="../../../images/chat/icon-chat.png" alt="image" style="width: 25px; height: 25px;"> ${response.content}` });
   };
 
   // Lidar com envio de mensagem pelo usuário
@@ -88,14 +88,18 @@ const createViewElement = (user) => {
               <h3>${user.name}</h3>
               <p>${user.quote}</p>
             </div>
+
             <div id="messageError" class="error-message hide"></div>
+
           </div>
         </section>
 
         <section id="chat">
           <div id="messages"></div>
         </section>
+
         <div id="openai_digitando"></div>
+
         <section class="container__input relative">
           <div class="container_input__chat">
             <input class="input__chat" id="input__chat" type="text" placeholder="Digite sua pergunta?" />

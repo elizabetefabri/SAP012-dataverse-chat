@@ -9,11 +9,10 @@
 
 [![portfolio](https://img.shields.io/badge/Caderno_de_Estudos_-_DATAVERSE_CHAT-74BA9C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://elzbieta.notion.site/Dataverse-Chat-f28924c9c8864107ac0da49706f29592)
 
-## 📝 Ferramentas utilizadas no NLW
+## 📝 Ferramentas utilizadas no sistema DataverseChat
 
 - [GitHub do Projeto]()
 - [Figma - Protótipo do projeto](https://www.figma.com/file/asUYQQBBq3lTGP2og7X0Et/Dataverse-Chat?type=design&node-id=201%3A441&mode=dev&t=5njNnMhiYVumzElG-1)
-- [ViteJs]()
 
 <table>
   <thead>
@@ -57,7 +56,7 @@
     </tr>
     <tr>
       <td>04</td>
-      <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/cancel.png"></td>
+      <td><img width="30px" height="30px" align="center" alt="icon check" src="./src/images/check.png"></td>
       <td>Marco 04 API - Conectar a API OpenAI(chat grupal).</td>
       <td align="center">
         <a href="https://github.com/elizabetefabri/SAP012-dataverse-chat/blob/main/docs/package/marco-04/README.md" target="_blank">
@@ -67,10 +66,41 @@
     </tr>
     </tbody>
   <tfoot>
-
   </tfoot>
+</table>
+
+## 📱 Páginas do Mobile
+
+<table>
+  <thead>
+    <tr align="center">
+      <th><h3>Página do Home Mobile</h3></th>
+      <th><h3>Componente Modal</h3></th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td><img  align="center" alt="icon check" src="./docs/assets/home.gif"></td>
+      <td><img  align="center" alt="icon check" src="./docs/assets/modal.gif"></td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr align="center">
+      <th><h3>Página do Chat em Grupo Mobile</h3></th>
+      <th><h3>Página do Chat Individual Mobile</h3> </th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td><img  align="center" alt="icon check" src="./docs/assets/grupo.gif"></td>
+      <td><img  align="center" alt="icon check" src="./docs/assets/individual.gif"></td>
+    </tr>
+  </tbody>
 </table>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
 ##### Desenvolvido por <span>Elizabete Fabri</span> 💚
+

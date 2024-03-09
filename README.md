@@ -1,9 +1,8 @@
 <h1>
     <a href="https://www.laboratoria.la/br">
      <img align="center" width="40px" src="./src/images/android-chrome-192x192.png"></a>
-    <span>Projeto 03 - Dataverse Chat</span>
+    <span>Projeto 03 - DataverseChat Comunidade Criativa</span>
 </h1>
-
 
 ## 📚 Confira meu caderno de estudos:
 
@@ -13,6 +12,8 @@
 
 - [GitHub do Projeto]()
 - [Figma - Protótipo do projeto](https://www.figma.com/file/asUYQQBBq3lTGP2og7X0Et/Dataverse-Chat?type=design&node-id=201%3A441&mode=dev&t=5njNnMhiYVumzElG-1)
+
+### Este projeto exibe vários personagens, cada um dos quais pode interagir por meio de um sistema de chat desenvolvido pela API OpenAI.
 
 <table>
   <thead>
@@ -68,6 +69,20 @@
   <tfoot>
   </tfoot>
 </table>
+
+
+## Instalação
+### Instale meu projeto com npm
+
+```
+npm install my-project
+cd my-project
+npm run start
+```
+### Executando testes
+```
+npm run test
+```
 
 ## 📱 Páginas do Mobile
 

@@ -92,6 +92,12 @@
     margin-bottom: 0.5rem;
   }
   .openai-message {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    align-items: center;
+
     position: relative;
     font-family: "Nunito", sans-serif;
     font-weight: 500;
@@ -102,7 +108,10 @@
 
     margin-bottom: 0.5rem;
   }
+  .image-robo-chat{
 
+    /* border: solid 1px #000; */
+  }
   #openai_digitando {
     font-size: 0.9rem;
     font-weight: 400;
@@ -199,7 +208,14 @@
     margin-bottom: 0.5rem;
   }
   .openai-message {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    align-items: center;
+
     position: relative;
+    font-family: "Nunito", sans-serif;
     font-weight: 500;
     background-color: #d9fdd3;
     border-radius: 0px 10px 10px 10px;
@@ -208,7 +224,10 @@
 
     margin-bottom: 0.5rem;
   }
+  .image-robo-chat{
 
+    /* border: solid 1px #000; */
+  }
   #openai_digitando {
     font-size: 0.9rem;
     font-weight: 400;

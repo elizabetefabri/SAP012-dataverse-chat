@@ -1,30 +1,30 @@
-let ROUTES = {};
-let rootEl = "";
+let routes = {};
+let rootEl = null;
+const ERROR_PATH = "/error";
 
-export const setRoutes = (routes) => {
-  ROUTES = routes;
+export const setRoutes = (newRoutes) => {
+  routes = newRoutes;
 };
 
-export const setRootEl = (el) => {
-  rootEl = el;
+export const setRootEl = (element) => {
+  rootEl = element;
 };
 
-const queryStringToObject = (queryString) => {
-  const params = new URLSearchParams(queryString);
-  return Object.fromEntries(params.entries());
-};
+const queryStringToObject = (queryString) =>
+  Object.fromEntries(new URLSearchParams(queryString).entries());
 
 const renderView = (pathName, props = {}) => {
+  if (!(pathName in routes)) {
+    pathName = ERROR_PATH;
+  }
   rootEl.innerHTML = "";
-
-  const viewFunc = ROUTES[pathName];
-  const viewEl = viewFunc(props);
-
+  const viewEl = routes[pathName](props);
   rootEl.appendChild(viewEl);
 };
 
 export const navigateTo = (pathname, props = {}) => {
-  window.history.pushState({}, pathname, window.location.origin + pathname);
+  const url = window.location.origin + pathname;
+  window.history.pushState({}, pathname, url);
   renderView(pathname, props);
 };
 

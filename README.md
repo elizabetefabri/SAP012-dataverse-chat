@@ -74,8 +74,8 @@
 <table>
   <thead>
     <tr align="center">
-      <th><h3>Página do Home Mobile</h3></th>
-      <th><h3>Componente Modal</h3></th>
+      <th><h3 align="center">Página do Home Mobile</h3></th>
+      <th><h3 align="center">Componente Modal</h3></th>
     </tr>
   </thead>
   <tbody align="center">
@@ -88,8 +88,8 @@
 <table>
   <thead>
     <tr align="center">
-      <th><h3>Página do Chat em Grupo Mobile</h3></th>
-      <th><h3>Página do Chat Individual Mobile</h3> </th>
+      <th><h3 align="center">Página do Chat em Grupo Mobile</h3></th>
+      <th><h3 align="center">Página do Chat Individual Mobile</h3> </th>
     </tr>
   </thead>
   <tbody align="center">
@@ -100,7 +100,23 @@
   </tbody>
 </table>
 
+## 💻 Página Home e componente Modal
+![Imagem desktop](./docs/assets/desktop.gif)
+
+## 💻 Página do Chat em Grupo
+![Imagem desktop](./docs/assets/chat-grupo.gif)
+
+## 💻 Página do Chat em Individual
+![Imagem desktop](./docs/assets/chat-individual.gif)
+
+<div align="center">
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
 ##### Desenvolvido por <span>Elizabete Fabri</span> 💚
+
+</div>
+
+
+
 

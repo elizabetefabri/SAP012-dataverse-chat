@@ -6,7 +6,7 @@
 
 ## 📚 Confira meu caderno de estudos:
 
-[![portfolio](https://img.shields.io/badge/Caderno_de_Estudos_-_DATAVERSE_CHAT-74BA9C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://elzbieta.notion.site/Dataverse-Chat-f28924c9c8864107ac0da49706f29592)
+[![portfolio](https://img.shields.io/badge/Caderno_de_Estudos_-_DATAVERSE_CHAT-74BA9C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://elzbieta.notion.site/03-SAP012-Dataverse-Chat-70d305c8870b4f669756cdf5a5225f93)
 
 ## 📝 Ferramentas utilizadas no sistema DataverseChat
 

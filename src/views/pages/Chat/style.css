@@ -7,6 +7,8 @@
   height: 100vh;
 }
 
+
+
 /* desktop */
 @media only screen and (max-width: 768px) {
   * {
@@ -96,7 +98,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: left;
-    align-items: center;
+    /* align-items: center; */
 
     position: relative;
     font-family: "Nunito", sans-serif;
@@ -212,7 +214,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: left;
-    align-items: center;
+    /* align-items: center; */
 
     position: relative;
     font-family: "Nunito", sans-serif;

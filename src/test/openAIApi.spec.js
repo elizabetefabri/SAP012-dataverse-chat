@@ -5,6 +5,7 @@ global.fetch = jest.fn().mockResolvedValue({
   status: 200, json: jest.fn().mockResolvedValue({})
 });
 
+
 describe("communicateWithOpenAI", () => {
   test("A comunicação deve enviar uma solicitação para a API OpenAI e retornar os dados com sucesso!!!", async () => {
     const resposta = { choices: [{ message: { content: 'Esta é uma resposta' } }], ok: true };
@@ -24,18 +25,27 @@ describe("communicateWithOpenAI", () => {
   });
 
   it('Deve tratar corretamente a falha na comunicação com a API', async () => {
+    // const resp = { status: 500 }
+    // fetch.mockReturnValue(Promise.resolve(new Response(resp)))
+    // await mockError();
+    // await communicateMock.mockResolvedValue(resp);
+    // console.log("mockError 123", mockError);
     global.fetch.mockResolvedValueOnce({
       ok: false,
+      status: 500
     });
+
+
     await expect(communicateWithOpenAI([])).rejects.toThrow('Failed to fetch');
   });
+
 
   it('Deve tratar corretamente o caso de nenhuma mensagem encontrada', async () => {
     global.fetch.mockResolvedValueOnce({
       ok: true,
-      json: async () => ({}),
+      json: () => Promise.resolve({}),
     });
-    await expect(communicateWithOpenAI([])).rejects.toThrow('No messages found');
+    await expect(communicateWithOpenAI([])).rejects.toThrow('Nenhuma mensagem encontrada');
   });
 });
 

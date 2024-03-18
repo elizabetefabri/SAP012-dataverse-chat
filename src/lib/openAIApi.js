@@ -29,10 +29,11 @@ export const communicateWithOpenAI = async (messages) => {
         content: data.choices[0].message.content,
       };
     } else {
-      throw new Error('No messages found');
+      throw new Error('Nenhuma mensagem encontrada');
     }
   } catch (error) {
-    console.error('Ocorreu um erro:', error);
-    throw error;
+    // console.error(error);
+    // throw error;
+    throw new Error(error);
   }
 };
